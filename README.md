@@ -1,19 +1,19 @@
-mern-frontend
-Monday 16/6/2025
-The visible part of an HTML document is between <body></body>.
+# mern-frontend  
+## Monday 16/6/2025
 
-Headings are defined from <h1></h1> to <h6></h6>, with <h1> being the most important one.
+The visible part of an HTML document is between `<body></body>`.
 
-<p> is used for paragraphs.
-<pre> is used if you want to display preformatted text.
-<hr> is used for a horizontal rule (break line).
-<br> is used for a line break.
-<a> is used for links with the href attribute.
-<img> is used to show an image, with attributes like src for the source file (which can be an absolute or relative path) and alt for displaying text if the image fails to load.
+Headings are defined from `<h1></h1>` to `<h6></h6>`, with `<h1>` being the most important one.
 
-HTML elements can be nested and are not case-sensitive; for example, <P> is the same as <p>.
+- `<p>` is used for paragraphs.  
+- `<pre>` is used if you want to display preformatted text.  
+- `<hr>` is used for a horizontal rule (break line).  
+- `<br>` is used for a line break.  
+- `<a>` is used for links with the `href` attribute.  
+- `<img>` is used to show an image, with attributes like `src` for the source file (which can be an absolute or relative path) and `alt` for displaying text if the image fails to load.
 
-The style attribute can be used within HTML elements to add inline styles.
+HTML elements can be nested and are not case-sensitive; for example, `<P>` is the same as `<p>`.
 
-The lang attribute is used to declare the language of the webpage, such as "en" or with a country code like "en-US".
+The `style` attribute can be used within HTML elements to add inline styles.
 
+The `lang` attribute is used to declare the language of the webpage, such as `"en"` or with a country code like `"en-US"`.
