@@ -23,7 +23,7 @@ The `lang` attribute is used to declare the language of the webpage, such as `"e
 - With style attribut we can add backgrond color by using background-color, color to change the text colors, font-family for text family, ont size for text size, text-allign for alignment of text
 
 
-- `<b>`	    |Defines bold text  <br>
+`<b>`	    |Defines bold text  <br>
 `<em>`	    |Defines emphasized text <br>  
 `<i>`	    |Defines a part of text in an alternate voice or mood <br>
 `<small>`	|Defines smaller text <br>
