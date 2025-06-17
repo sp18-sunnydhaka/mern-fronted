@@ -34,4 +34,5 @@ The `lang` attribute is used to declare the language of the webpage, such as `"e
 `<del>`	    |Defines deleted text  <br>
 `<mark>`	|Defines marked/highlighted text <br>  
 
+
 </pre>
