@@ -24,7 +24,7 @@ The `lang` attribute is used to declare the language of the webpage, such as `"e
 
 
 `<b>`	    |Defines bold text  <br>
-`<em>`	    |Defines emphasized text <br>  
+`<em>`	    |Defines emphasized text<br>  
 `<i>`	    |Defines a part of text in an itlic way <br>
 `<small>`	|Defines smaller text <br>
 `<strong>`	|Defines important text  <br>
