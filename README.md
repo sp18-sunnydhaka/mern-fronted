@@ -16,4 +16,20 @@ HTML elements can be nested and are not case-sensitive; for example, `<P>` is th
 
 The `style` attribute can be used within HTML elements to add inline styles.
 
-The `lang` attribute is used to declare the language of the webpage, such as `"en"` or with a country code like `"en-US"`.
+The `lang` attribute is used to declare the language of the webpage, such as `"en"` for first two characters and last two characters with a country code like `"en-US"`.
+
+## Tuesday 17/6/2025
+
+- With style attribut we can add backgrond color by using background-color, color to change the text colors, font-family for text family, ont size for text size, text-allign for alignment of text
+
+
+`<b>`	    |Defines bold text
+`<em>`	    |Defines emphasized text 
+`<i>`	    |Defines a part of text in an alternate voice or mood
+`<small>`	|Defines smaller text
+`<strong>`	|Defines important text
+`<sub>`	    |Defines subscripted text
+`<sup>`	    |Defines superscripted text
+`<ins>` 	|Defines inserted text
+`<del>`	    |Defines deleted text
+`<mark>`	|Defines marked/highlighted text
