@@ -22,6 +22,8 @@ The `lang` attribute is used to declare the language of the webpage, such as `"e
 
 - With style attribut we can add backgrond color by using background-color, color to change the text colors, font-family for text family, ont size for text size, text-allign for alignment of text.
 
+- For seo optimization it is good to add alt for images and mutiple sorces of videos can be added and message if none of source provided works
+
 
 | Tag        | Description                 |
 |------------|-----------------------------|
@@ -40,3 +42,19 @@ The `lang` attribute is used to declare the language of the webpage, such as `"e
 Block - In block elements like `<div>` and `<p>` uses the full width and are laid vertically, Margin collapses in case of two block element used together the bigger margin of two is used.  
 
 Inline - In inline elements like `<span>` and `<img>` are laid horizontally 
+
+- List:
+`<ul>` is used for bulleted list, there are four types of styles that can be applied to an unordered list it can be used with the attribute of style: style="list-style-type:none;"
+- disc	Sets the list item marker to a bullet (default)
+- circle	Sets the list item marker to a circle
+- square	Sets the list item marker to a square
+- none	The list items will not be marked
+
+`<ol>` is used for an ordered list, there are five ways to aply style to ordered list with the attribut of type=""
+- type="1"	The list items will be numbered with numbers (default)
+- type="A"	The list items will be numbered with uppercase letters
+- type="a"	The list items will be numbered with lowercase letters
+- type="I"	The list items will be numbered with uppercase roman numbers
+- type="i"	The list items will be numbered with lowercase roman numbers
+
+`<dl>` is used for description list as in for key value pair with `<dt>` as key and `<dt>` as term
