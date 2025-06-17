@@ -24,14 +24,14 @@ The `lang` attribute is used to declare the language of the webpage, such as `"e
 
 
 
-&lt;b&gt;	    |Defines bold text  <br>
-&lt;em&gt;	    |Defines emphasized text <br>  
-&lt;i&gt;       |Defines a part of text in an alternate voice or mood <br>
-&lt;small&gt;	|Defines smaller text <br>
-&lt;strong&gt;	|Defines important text  <br>
-&lt;sub&gt;	    |Defines subscripted text   <br>
-&lt;sup&gt;	    |Defines superscripted text  <br>
-&lt;ins&gt; 	|Defines inserted text  <br>
-&lt;del&gt;	    |Defines deleted text  <br>
-&lt;mark&gt;	|Defines marked/highlighted text <br>  
+- &lt;b&gt;	    |Defines bold text  <br>
+- &lt;em&gt;	    |Defines emphasized text <br>  
+- &lt;i&gt;       |Defines a part of text in an alternate voice or mood <br>
+- &lt;small&gt;	|Defines smaller text <br>
+- &lt;strong&gt;	|Defines important text  <br>
+- &lt;sub&gt;	    |Defines subscripted text   <br>
+- &lt;sup&gt;	    |Defines superscripted text  <br>
+- &lt;ins&gt; 	|Defines inserted text  <br>
+- &lt;del&gt;	    |Defines deleted text  <br>
+- &lt;mark&gt;	|Defines marked/highlighted text <br>  
 
