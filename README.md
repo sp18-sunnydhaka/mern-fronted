@@ -25,11 +25,11 @@ The `lang` attribute is used to declare the language of the webpage, such as `"e
 
 | Tag        | Description                 |
 |------------|-----------------------------|
-| `<b>`      | Defines bold text           |
-| `<em>`     | Defines emphasized text     |
-| `<i>`      | Defines a part of text in an italic way |
+| `<b>`      | Defines bold text (non semantic) |
+| `<em>`     | Defines emphasized text (semantic)|
+| `<i>`      | Defines a part of text in an italic way(non sematic)|
 | `<small>`  | Defines smaller text        |
-| `<strong>` | Defines important text      |
+| `<strong>` | Defines important text(semenatic)|
 | `<sub>`    | Defines subscripted text    |
 | `<sup>`    | Defines superscripted text  |
 | `<ins>`    | Defines inserted text (underline) |
