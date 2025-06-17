@@ -23,15 +23,16 @@ The `lang` attribute is used to declare the language of the webpage, such as `"e
 - With style attribut we can add backgrond color by using background-color, color to change the text colors, font-family for text family, ont size for text size, text-allign for alignment of text.
 
 
-- `<b>`	    |Defines bold text 
-- `<em>`	    |Defines emphasized text
-- `<i>`	    |Defines a part of text in an itlic way 
-- `<small>`	|Defines smaller text 
-- `<strong>`	|Defines important text  
-- `<sub>`	    |Defines subscripted text   
-- `<sup>`	    |Defines superscripted text  
-- `<ins>` 	|Defines inserted text(underline)  
-- `<del>`	    |Defines deleted text(marked)  
-- `<mark>`	|Defines marked/highlighted text 
-
+| Tag        | Description                 |
+|------------|-----------------------------|
+| `<b>`      | Defines bold text           |
+| `<em>`     | Defines emphasized text     |
+| `<i>`      | Defines a part of text in an italic way |
+| `<small>`  | Defines smaller text        |
+| `<strong>` | Defines important text      |
+| `<sub>`    | Defines subscripted text    |
+| `<sup>`    | Defines superscripted text  |
+| `<ins>`    | Defines inserted text (underline) |
+| `<del>`    | Defines deleted text (marked) |
+| `<mark>`   | Defines marked/highlighted text |
 
