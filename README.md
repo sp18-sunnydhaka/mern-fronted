@@ -18,7 +18,7 @@ The `style` attribute can be used within HTML elements to add inline styles.
 
 The `lang` attribute is used to declare the language of the webpage, such as `"en"` for first two characters and last two characters with a country code like `"en-US"`.
 
-## Tuesday 17/6/2025
+## Tuesday 17/6/2025 DAY 2
 
 - With style attribut we can add backgrond color by using background-color, color to change the text colors, font-family for text family, ont size for text size, text-allign for alignment of text.
 
@@ -58,6 +58,8 @@ Inline - In inline elements like `<span>` and `<img>` are laid horizontally
 - type="i"	The list items will be numbered with lowercase roman numbers
 
 `<dl>` is used for description list as in for key value pair with `<dt>` as key and `<dt>` as term
+
+![Alt text](mern-fronted/assets/image.png "Day 2 Task")
 
 
 ## Wednesday 18/6/2025
