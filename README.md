@@ -62,10 +62,9 @@ Inline - In inline elements like `<span>` and `<img>` are laid horizontally
 
 ## Wednesday 18/6/2025
 
-<pre>
-=> To use an image as a link, we can  put <img> inside <a>  
-=> We can use `mailto:` inside href attribute to open email and let user send email  
-=> In CSS we can use `:hover` `:active` `:visited` to add design color, background-color, and text decoration  
-=> we can use id to bookmark in tags to identify them uqinuely  
-=> we can use `float` in `style` in paragraph to put it in right or left  
-</pre>
+
+    => To use an image as a link, we can  put `<img>` inside `<a>`  
+    => We can use `mailto:` inside href attribute to open email and let user send email  
+    => In CSS we can use `:hover` `:active` `:visited` to add design color, background-color, and text decoration  
+    => we can use id to bookmark in tags to identify them uqinuely  
+    => we can use `float` in `style` in paragraph to put it in right or left  
