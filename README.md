@@ -94,10 +94,10 @@ Link is used to link html sheet to external sheet
 
     
     |Tag	        |Description                                                             |
-    |-----------    |------------------------------------------------------------------------|   
-    |<table>        |Defines a table                                                      |   
-    |<th>	        |Defines a header cell in a table                                       |   
-    |<tr>	        |Defines a row in a table                                                 |   
+    |---------------|------------------------------------------------------------------------|   
+    |<table>        |Defines a table                                                         |   
+    |<th>	        |Defines a header cell in a table                                        |   
+    |<tr>	        |Defines a row in a table                                                |   
     |<td>	        |Defines a cell in a table                                               |   
     |<caption>	    |Defines a table caption                                                 |   
     |<colgroup>	    |Specifies a group of one or more columns in a table for formatting      |   
