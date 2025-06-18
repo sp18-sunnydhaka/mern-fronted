@@ -93,15 +93,15 @@ Link is used to link html sheet to external sheet
     - <link rel="icon" type="image/x-icon" href="/images/favicon.ico"> for image show in tab 
 
     
-    |Tag	    |Description                                                             |
-    |-----------|------------------------------------------------------------------------|   
-    |<table>    |	Defines a table                                                      |   
-    |<th>	    | Defines a header cell in a table                                       |   
-    |<tr>	    |    Defines a row in a table                                            |   
-    |<td>	    |    Defines a cell in a table                                           |   
-    |<caption>	|    Defines a table caption                                             |   
-    |<colgroup>	|Specifies a group of one or more columns in a table for formatting      |   
-    |<col>	    |Specifies column properties for each column within a <colgroup> element |
-    |<thead>	|Groups the header content in a table                                    |
-    |<tbody>	|Groups the body content in a table                                      |
-    |<tfoot>	|Groups the footer content in a table                                    |   
+    |Tag	        |Description                                                             |
+    |-----------    |------------------------------------------------------------------------|   
+    |<table>        |Defines a table                                                      |   
+    |<th>	        |Defines a header cell in a table                                       |   
+    |<tr>	        |Defines a row in a table                                                 |   
+    |<td>	        |Defines a cell in a table                                               |   
+    |<caption>	    |Defines a table caption                                                 |   
+    |<colgroup>	    |Specifies a group of one or more columns in a table for formatting      |   
+    |<col>	        |Specifies column properties for each column within a <colgroup> element |
+    |<thead>	    |Groups the header content in a table                                    |
+    |<tbody>	    |Groups the body content in a table                                      |
+    |<tfoot>	    |Groups the footer content in a table                                    |   
