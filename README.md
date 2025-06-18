@@ -59,7 +59,7 @@ Inline - In inline elements like `<span>` and `<img>` are laid horizontally
 
 `<dl>` is used for description list as in for key value pair with `<dt>` as key and `<dt>` as term
 
-![Alt text](mern-fronted/assets/image.png "Day 2 Task")
+![Alt text](/assets/image.png "Day 2 Task")
 
 
 ## Wednesday 18/6/2025
