@@ -65,8 +65,21 @@ Inline - In inline elements like `<span>` and `<img>` are laid horizontally
 ## Wednesday 18/6/2025
 
 
-    => To use an image as a link, we can  put `<img>` inside `<a>`  
-    => We can use `mailto:` inside href attribute to open email and let user send email  
-    => In CSS we can use `:hover` `:active` `:visited` to add design color, background-color, and text decoration  
-    => we can use id to bookmark in tags to identify them uqinuely  
-    => we can use `float` in `style` in paragraph to put it in right or left  
+    - To use an image as a link, we can  put <img> inside <a>  
+    - We can use mailto: inside href attribute to open email and let user send email  
+    - In CSS we can use a :hover, a :active, a :visited to add design color, background-color, and text decoration  
+    - we can use id to bookmark in tags to identify them uqinuely  
+    - we can use float in style in <p> to put it in right or left  
+
+
+    - We can make image clickable with the help of using <img usemap="# image-map-name"> `<map name="image-map-name">` and `<area>` inside `<map>` to define shape like rect, poly, circle or default for entire region
+    - we can put href attribute inside <area> and onclick() function for javascript
+
+    <img src="workplace.jpg" alt="Workplace" usemap="#workmap">
+        <map name="workmap">
+            <area shape="rect" coords="34,44,270,350" alt="Computer" href="computer.htm">
+            <area shape="rect" coords="290,172,333,250" alt="Phone" href="phone.htm">
+            <area shape="circle" coords="337,300,44" alt="Coffee" href="coffee.htm">
+        </map>
+    
+    - We can use background-image : url('')for setting background image for element and background-repeat : no-repeat; for image to not repeat itself and background-size:cover; to cover entire element and background attachment fixed so that it do not stretch
