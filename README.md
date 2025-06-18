@@ -85,3 +85,23 @@ We can make image clickable with the help of using <img usemap="# image-map-name
         </map>
     
     - We can use background-image : url('')for setting background image for element and background-repeat : no-repeat; for image to not repeat itself and background-size:cover; to cover entire element and background attachment fixed so that it do not stretch
+
+`<pitcure>` is a useful tag to show images according to attribut media where we can set "min-width:650px " and srcset for source of the image and we use multiple `<source srcset>` for it
+
+Link is used to link html sheet to external sheet 
+
+    - <link rel="icon" type="image/x-icon" href="/images/favicon.ico"> for image show in tab 
+
+    
+    |Tag	    |Description                                                             |
+    |-----------|------------------------------------------------------------------------|   
+    |<table>    |	Defines a table                                                      |   
+    |<th>	    | Defines a header cell in a table                                       |   
+    |<tr>	    |    Defines a row in a table                                            |   
+    |<td>	    |    Defines a cell in a table                                           |   
+    |<caption>	|    Defines a table caption                                             |   
+    |<colgroup>	|Specifies a group of one or more columns in a table for formatting      |   
+    |<col>	    |Specifies column properties for each column within a <colgroup> element |
+    |<thead>	|Groups the header content in a table                                    |
+    |<tbody>	|Groups the body content in a table                                      |
+    |<tfoot>	|Groups the footer content in a table                                    |   
