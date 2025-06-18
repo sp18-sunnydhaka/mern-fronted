@@ -72,8 +72,9 @@ Inline - In inline elements like `<span>` and `<img>` are laid horizontally
     - we can use float in style in <p> to put it in right or left  
 
 
-    We can make image clickable with the help of using <img usemap="# image-map-name"> `<map name="image-map-name">` and `<area>` inside `<map>` to define shape like rect, poly, circle or default for entire region
-    
+We can make image clickable with the help of using <img usemap="# image-map-name"> `<map name="image-map-name">` and `<area>` inside `<map>` to define shape like rect, poly, circle or default for entire region
+
+
     -> we can put href attribute inside <area> and onclick() function for javascript
 
     <img src="workplace.jpg" alt="Workplace" usemap="#workmap">
