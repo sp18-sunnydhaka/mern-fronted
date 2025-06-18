@@ -105,3 +105,34 @@ Link is used to link html sheet to external sheet
     |<thead>	    |Groups the header content in a table                                    |
     |<tbody>	    |Groups the body content in a table                                      |
     |<tfoot>	    |Groups the footer content in a table                                    |   
+
+
+Following CSS option is available to 
+
+    table, th, td {
+        border: 1px solid black;
+        border-collapse: collapse;
+        border-style: dotted;
+        border-radius: 10px;
+        border-color: #96D4D4;
+        width:100%;
+        height:200px;
+    }
+
+    th {
+        text-align: left;
+    }
+
+    th, td {
+        padding: 15px;
+    }
+
+    tr:nth-child(even) {
+        background-color: rgba(150, 212, 212, 0.4);
+    }
+
+    th:nth-child(even),td:nth-child(even) {
+        background-color: rgba(150, 212, 212, 0.4);
+    }
+
+    - if we hover over any row it show different colors  according background color tr:hover {background-color: #D6EEEE;}
