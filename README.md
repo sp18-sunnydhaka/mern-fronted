@@ -60,4 +60,4 @@ Inline - In inline elements like `<span>` and `<img>` are laid horizontally
 `<dl>` is used for description list as in for key value pair with `<dt>` as key and `<dt>` as term
 
 
-## Tuesday 18/6/2025
+## Wednesday 18/6/2025
