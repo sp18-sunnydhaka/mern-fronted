@@ -136,3 +136,6 @@ Following CSS option is available to
     }
 
     - if we hover over any row it show different colors  according background color tr:hover {background-color: #D6EEEE;}
+
+
+![Alt text](/assets/Day3_task.png "Day 3 Task")
