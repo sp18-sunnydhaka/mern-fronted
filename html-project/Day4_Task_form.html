@@ -16,6 +16,7 @@
                 <label for="email">Email Address:</label><br>
                 <input type="email" id="email" name="email" required placeholder="you@example.com" autocomplete="off"><br>
                 <label for="phone">Phone Number:</label><br>
+                <input type="text" value="+91" readonly disabled size="3">
                 <input type="tel" id="phone" name="phone" placeholder="123-456-7890" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" title="Please enter a valid phone number (e.g., 123-456-7890)"><br>
                 <label for="countryCode">Country Code (3 letters):</label><br>
                 <input type="text" id="countryCode" name="countryCode" pattern="[A-Za-z]{3}" title="Three-letter country code" maxlength="3"><br>
@@ -24,11 +25,11 @@
         <fieldset>
             <legend>Conference Preferences</legend>
             <p>What is your primary area of interest?</p>
-            <input type="radio" id="ai" value="AI" required>
+            <input type="radio" id="ai" name="interest" value="AI" required>
             <label for="ai">Artificial Intelligence</label><br>
-            <input type="radio" id="webdev" value="WebDev">
+            <input type="radio" id="webdev" name="interest" value="WebDev">
             <label for="webdev">Web Development</label><br>
-            <input type="radio" id="cloud" value="Cloud">
+            <input type="radio" id="cloud" name="interest" value="Cloud">
             <label for="cloud">Cloud Computing</label><br>
 
             <p>Which workshops would you like to attend? (Select all that apply)</p>
