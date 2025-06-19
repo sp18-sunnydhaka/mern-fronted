@@ -1,7 +1,18 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang ='en'>
 <head>
     <title>Tech Conference 2025 Registration</title>
+    <style>
+        body{
+            background-color: lightblue;
+        }
+        fieldset{
+            border:2px solid black;
+        }
+        legend{
+            color: navy;
+        }
+    </style>
 </head>
 <body>
 
@@ -46,7 +57,7 @@
         <fieldset>
             <legend>Travel and Accommodation</legend>
                 <label for="arrivalDate">Arrival Date:</label><br>
-                <input type="date" id="arrivalDate" name="arrivalDate" min="2025-10-15"><br>
+                <input type="date" id="arrivalDate" name="arrivalDate" min="2025-10-15" max="2025-10-25"><br>
 
                 <label for="attendees">Number of Attendees in your group (1-10):</label><br>
                 <input type="number" id="attendees" min="1" max="10" step="1" value="1"><br>
@@ -74,6 +85,7 @@
         <br>
         <input type="submit" value="Register Now">
         <input type="submit" value="Submit without Validation" formnovalidate>
+        <!-- <button type="submit"></button> -->
     </form>
 
 </body>
