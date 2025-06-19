@@ -167,12 +167,12 @@ For Responsiveness of website
 - With media query we can set a break point of css how to style if `@media screen and (max-width: 800px)`
 
 
-    ==> `<header>` - Defines a header for a document or a section
-    ==> `<nav>` - Defines a set of navigation links
-    ==> `<section>` - Defines a section in a document
-    ==> `<article>` - Defines independent, self-contained content
-    ==> `<aside>` - Defines content aside from the content (like a sidebar)
-    ==> `<footer>` - Defines a footer for a document or a section
-    ==> `<details>` - Defines additional details that the user can open and close on demand
-    ==> `<summary>` - Defines a heading for the `<details>` element
+    ==> `<header>` - Defines a header for a document or a section  
+    ==> `<nav>` - Defines a set of navigation links  
+    ==> `<section>` - Defines a section in a document  
+    ==> `<article>` - Defines independent, self-contained content  
+    ==> `<aside>` - Defines content aside from the content (like a sidebar)  
+    ==> `<footer>` - Defines a footer for a document or a section  
+    ==> `<details>` - Defines additional details that the user can open and close on demand  
+    ==> `<summary>` - Defines a heading for the `<details>` element  
 
