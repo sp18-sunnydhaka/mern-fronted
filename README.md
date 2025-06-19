@@ -283,3 +283,18 @@ required`: Specifies that an input field must be filled out before the form can 
     `<form action="/action_page.php" autocomplete="on">`
       `<input type="email" name="email" autocomplete="off">`
     `</form>`
+
+
+form: Specifies the `<form>` the `<input>` element belongs to. This allows you to place an input element anywhere on the page, outside the form element, and still have it be part of that form. The value of this attribute must match the id of the associated `<form>`.
+
+formaction: Overrides the action attribute of the parent `<form>`. It specifies the URL of the file that will process the input when that specific input (button) is used to submit the form. This attribute works with input types submit and image.
+
+formenctype: Overrides the enctype attribute of the parent `<form>`. It defines how the form-data should be encoded when submitted. This is only for forms with method="post". This attribute works with input types submit and image.
+
+formmethod: Overrides the method attribute of the parent `<form>`. It defines the HTTP method (get or post) for sending form-data to the action URL. This attribute works with input types submit and image.
+
+formtarget: Overrides the target attribute of the parent `<form>`. It specifies a name or keyword indicating where to display the response received after the form is submitted (e.g., _blank to open in a new tab). This attribute works with input types submit and image.
+
+formnovalidate: A boolean attribute that specifies that the form-data should not be validated when submitted via that specific input. It overrides the novalidate attribute of the `<form>` element. This attribute works with the submit input type.
+
+novalidate: This is an attribute for the `<form>` element itself. When present, it specifies that none of the form-data should be validated upon submission.  
