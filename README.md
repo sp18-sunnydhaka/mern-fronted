@@ -187,3 +187,26 @@ HTML FORMS
 
 - The `<label>` tag defines a label for many form elements. The `<label>` element is useful for screen-reader users, because the   screen-reader will read out loud the label when the user focuses on the input element.The `<label>` element also helps users   who have difficulty clicking on very small regions (such as radio buttons or checkboxes) - because when the user clicks the   text within the `<label>` element, it toggles the radio button/checkbox. The for attribute of the `<label>` tag should be equal   to the id attribute of the `<input>` element to bind them together.
 
+
+-   `action`: Specifies the URL where the form data will be sent upon submission. If omitted, the form submits to the current page.
+    `<form action="/process-data.php">`
+
+-   `target`: Defines where to display the response after the form is submitted.
+    -   `_self`: (Default) In the current window.
+    -   `_blank`: In a new window or tab.
+    -   `_parent`: In the parent frame.
+    -   `_top`: In the full body of the window.
+    `<form action="/process-data.php" target="_blank">`
+
+-   `method`: Sets the HTTP method for submitting the form.
+    -   `get`: (Default) Appends form data to the URL as name/value pairs. Good for non-sensitive data like search queries. Data is visible in the URL and has length limitations.
+    -   `post`: Sends form data within the body of the HTTP request. Use this for sensitive/personal information as it is not visible in the URL and has no size limits.
+    `<form action="/process-data.php" method="post">`
+
+-   `autocomplete`: Controls whether the browser should automatically complete form fields based on previous user input.
+    -   `on`: Enables autocomplete.
+    -   `off`: Disables autocomplete.
+    `<form action="/process-data.php" autocomplete="on">`
+
+-   `novalidate`: A boolean attribute that, when present, specifies that the form data should not be validated by the browser upon submission.
+    `<form action="/process-data.php" novalidate>`
