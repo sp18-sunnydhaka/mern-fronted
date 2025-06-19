@@ -7,145 +7,73 @@
 
     <h1>Tech Conference 2025 Registration</h1>
 
-    <form id="registrationForm" action="/submit-registration.php" method="post" target="_blank" autocomplete="on" novalidate>
+    <form id="registrationForm"   target="_blank" autocomplete="on" novalidate>
 
         <fieldset>
             <legend>Personal Information</legend>
-
-            <p>
                 <label for="fullName">Full Name:</label><br>
-                <input type="text" id="fullName" name="fullName" placeholder="e.g., Jane Doe" required autofocus size="50">
-            </p>
-
-            <p>
+                <input type="text" id="fullName" name="fullName" placeholder="e.g., Jane Doe" required autofocus size="50"><br>
                 <label for="email">Email Address:</label><br>
-                <input type="email" id="email" name="email" required placeholder="you@example.com" autocomplete="off">
-            </p>
-
-            <p>
+                <input type="email" id="email" name="email" required placeholder="you@example.com" autocomplete="off"><br>
                 <label for="phone">Phone Number:</label><br>
-                <input type="tel" id="phone" name="phone" placeholder="123-456-7890" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" title="Please enter a valid phone number (e.g., 123-456-7890)">
-            </p>
-
-            <p>
+                <input type="tel" id="phone" name="phone" placeholder="123-456-7890" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" title="Please enter a valid phone number (e.g., 123-456-7890)"><br>
                 <label for="countryCode">Country Code (3 letters):</label><br>
-                <input type="text" id="countryCode" name="countryCode" pattern="[A-Za-z]{3}" title="Three-letter country code" maxlength="3">
-            </p>
-
+                <input type="text" id="countryCode" name="countryCode" pattern="[A-Za-z]{3}" title="Three-letter country code" maxlength="3"><br>
         </fieldset>
 
         <fieldset>
             <legend>Conference Preferences</legend>
-
             <p>What is your primary area of interest?</p>
-            <input type="radio" id="ai" name="interest" value="AI" required>
+            <input type="radio" id="ai" value="AI" required>
             <label for="ai">Artificial Intelligence</label><br>
-            <input type="radio" id="webdev" name="interest" value="WebDev">
+            <input type="radio" id="webdev" value="WebDev">
             <label for="webdev">Web Development</label><br>
-            <input type="radio" id="cloud" name="interest" value="Cloud">
+            <input type="radio" id="cloud" value="Cloud">
             <label for="cloud">Cloud Computing</label><br>
 
             <p>Which workshops would you like to attend? (Select all that apply)</p>
-            <input type="checkbox" id="workshop1" name="workshops" value="Intro to Docker">
+            <input type="checkbox" id="workshop1" value="Intro to Docker">
             <label for="workshop1">Introduction to Docker</label><br>
-            <input type="checkbox" id="workshop2" name="workshops" value="Advanced JavaScript">
+            <input type="checkbox" id="workshop2" value="Advanced JavaScript">
             <label for="workshop2">Advanced JavaScript</label><br>
-            <input type="checkbox" id="workshop3" name="workshops" value="Machine Learning Models">
+            <input type="checkbox" id="workshop3" value="Machine Learning Models">
             <label for="workshop3">Deploying Machine Learning Models</label><br>
-            <input type="checkbox" id="workshop4" name="workshops" value="Public Speaking for Nerds" disabled>
+            <input type="checkbox" id="workshop4" value="Public Speaking for Nerds" disabled>
             <label for="workshop4">Public Speaking for Nerds (Sold Out)</label><br>
-
         </fieldset>
 
         <fieldset>
             <legend>Travel and Accommodation</legend>
-
-            <p>
                 <label for="arrivalDate">Arrival Date:</label><br>
-                <input type="date" id="arrivalDate" name="arrivalDate" min="2025-10-15" max="2025-10-20">
-            </p>
+                <input type="date" id="arrivalDate" name="arrivalDate" min="2025-10-15"><br>
 
-            <p>
-                <label for="ticketType">Ticket Type:</label><br>
-                <select id="ticketType" name="ticketType" size="2">
-                    <optgroup label="Standard Tickets">
-                        <option value="early_bird" selected>Early Bird - $299</option>
-                        <option value="regular">Regular - $499</option>
-                    </optgroup>
-                    <optgroup label="Premium Tickets">
-                        <option value="vip">VIP Access - $799</option>
-                        <option value="all_access">All-Access Pass - $999</option>
-                    </optgroup>
-                </select>
-            </p>
-
-             <p>
                 <label for="attendees">Number of Attendees in your group (1-10):</label><br>
-                <input type="number" id="attendees" name="attendees" min="1" max="10" step="1" value="1" oninput="totalCost.value = parseInt(attendees.value) * 299">
-             </p>
+                <input type="number" id="attendees" min="1" max="10" step="1" value="1"><br>
 
-             <p>
-                Estimated Total Cost: <output name="totalCost" for="attendees ticketType">$299</output>
-             </p>
-
-
-            <p>
                 <label for="preferredHotel">Preferred Hotel (type to see suggestions):</label><br>
-                <input list="hotels" id="preferredHotel" name="preferredHotel">
+                <input list="hotels" id="preferredHotel" name="preferredHotel"><br>
                 <datalist id="hotels">
-                    <option value="Grand Hyatt">
-                    <option value="Marriott Marquis">
-                    <option value="The Hilton">
-                    <option value="Holiday Inn Express">
+                    <option value="Burj khalifa">
+                    <option value="Trump Tower">
+                    <option value="Radison blue">
                 </datalist>
-            </p>
-
         </fieldset>
 
         <fieldset>
             <legend>Additional Information</legend>
-
-            <p>
                 <label for="dietary">Dietary Restrictions:</label><br>
-                <textarea id="dietary" name="dietary" rows="4" cols="50" placeholder="e.g., Vegetarian, Gluten-Free..."></textarea>
-            </p>
-
-            <p>
+                <textarea id="dietary" name="dietary" rows="4" cols="50" placeholder="e.g., Vegetarian, Gluten-Free..."></textarea><br>
                 <label for="tshirt">T-Shirt Size (Unisex):</label><br>
-                <input type="range" id="tshirt" name="tshirt" min="1" max="5" step="1" value="3">
-                <br><span>XS S M L XL</span>
-            </p>
-
-             <p>
+                <input type="range" id="tshirt" name="tshirt" min="1" max="5" step="1" value="3"><br>
                 <label for="resume">Upload your Resume (Optional, for job fair):</label><br>
-                <input type="file" id="resume" name="resume" multiple>
-            </p>
-
-             <p>
+                <input type="file" id="resume" name="resume" multiple><br>
                 <label for="regCode">Registration Code:</label><br>
-                <input type="text" id="regCode" name="regCode" value="TC2025-GUEST" readonly>
-            </p>
-
+                <input type="text" id="regCode" name="regCode" value="TC2025-GUEST" readonly><br>
         </fieldset>
-
         <br>
-
         <input type="submit" value="Register Now">
-
-        <input type="button" onclick="alert('Check your details before submitting!')" value="Review Details">
-
-        <input type="image" src="https://via.placeholder.com/150/4CAF50/FFFFFF?text=Submit" alt="Submit" width="150" height="48"
-               formaction="/submit-with-image.php" formmethod="post">
-
-
         <input type="submit" value="Submit without Validation" formnovalidate>
-
     </form>
-
-    <p>
-        <label for="emergencyContact">Emergency Contact (outside form):</label><br>
-        <input type="text" id="emergencyContact" name="emergencyContact" form="registrationForm">
-    </p>
 
 </body>
 </html>
