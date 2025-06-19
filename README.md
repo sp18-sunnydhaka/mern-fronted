@@ -215,16 +215,16 @@ HTML FORMS
         Core Form Elements
         The <form> element acts as a container for various input controls. Within a form, you'll commonly find the following elements:
 
-    `<input>`: The most versatile form element, displayed in various ways depending on its type attribute (e.g., text, password, checkbox, radio).
-    `<label>`: Defines a label for form elements, improving accessibility for screen readers and user interaction, especially for small clickable areas like radio buttons and checkboxes. It's linked to an input via its for attribute matching the input's id.
-    `<select>`: Creates a drop-down list.
-    `<option>`: Defines an individual option within a `<select>` list. You can set a default selected option using the selected attribute.
+    `<input>`: The most versatile form element, displayed in various ways depending on its type attribute (e.g., text, password, checkbox, radio).  
+    `<label>`: Defines a label for form elements, improving accessibility for screen readers and user interaction, especially for small clickable areas like radio buttons and checkboxes. It's linked to an input via its for attribute matching the input's id.  
+    `<select>`: Creates a drop-down list.  
+    `<option>`: Defines an individual option within a `<select>` list. You can set a default selected option using the selected attribute.  
     size attribute: Controls the number of visible options in a drop-down list.
     multiple attribute: Allows users to select more than one option from the list.
-    `<textarea>`: Defines a multi-line text input field, useful for longer user inputs like messages or comments. Its dimensions can be controlled using rows and cols attributes or CSS.
-    `<button>`: Defines a clickable button. It's crucial to specify the type attribute (e.g., button, submit, reset) for consistent behavior across browsers.
+    `<textarea>`: Defines a multi-line text input field, useful for longer user inputs like messages or comments. Its dimensions can be controlled using rows and cols attributes or CSS.  
+    `<button>`: Defines a clickable button. It's crucial to specify the type attribute (e.g., button, submit, reset) for consistent behavior across browsers.  
     `<fieldset>`: Used to group related data within a form, often rendered with a border around the grouped elements.
-    `<legend>`: Provides a caption or title for a `<fieldset>` element.
-    `<datalist>`: Specifies a list of pre-defined options for an `<input>` element, providing users with suggestions as they type. The input's list attribute must refer to the datalist's id.
-    `<output>`: Represents the result of a calculation or user action, often used with JavaScript.
-    `<optgroup>`: Defines a group of related options within a `<select>` drop-down list.
+    `<legend>`: Provides a caption or title for a `<fieldset>` element.  
+    `<datalist>`: Specifies a list of pre-defined options for an `<input>` element, providing users with suggestions as they type. The input's list attribute must refer to the datalist's id.  
+    `<output>`: Represents the result of a calculation or user action, often used with JavaScript.  
+    `<optgroup>`: Defines a group of related options within a `<select>` drop-down list.  
