@@ -212,8 +212,9 @@ HTML FORMS
     `<form action="/process-data.php" novalidate>`
 
 
-        Core Form Elements
-        The <form> element acts as a container for various input controls. Within a form, you'll commonly find the following elements:
+    Core Form Elements
+    The `<form>` element acts as a container for various input controls. Within a form, 
+    you'll commonly find the following elements:
 
     `<input>`: The most versatile form element, displayed in various ways depending on its type attribute (e.g., text, password, checkbox, radio).  
     `<label>`: Defines a label for form elements, improving accessibility for screen readers and user interaction, especially for small clickable areas like radio buttons and checkboxes. It's linked to an input via its for attribute matching the input's id.  
@@ -228,3 +229,57 @@ HTML FORMS
     `<datalist>`: Specifies a list of pre-defined options for an `<input>` element, providing users with suggestions as they type. The input's list attribute must refer to the datalist's id.  
     `<output>`: Represents the result of a calculation or user action, often used with JavaScript.  
     `<optgroup>`: Defines a group of related options within a `<select>` drop-down list.  
+
+`value`: Specifies the initial default value for an input field.
+    `<input type="text" value="Default Text">`
+
+`readonly`: Makes an input field read-only. The user cannot modify the value, but the data is still sent when the form is submitted.
+    `<input type="text" value="John" readonly>`
+
+`disabled`: Disables an input field. The field becomes unusable and un-clickable, and its value is **not** sent when the form is submitted.
+    `<input type="text" value="John" disabled>`
+
+`size`: Defines the visible width of the input field in characters. The default value is `20`. It applies to input types: `text`, `search`, `tel`, `url`, `email`, and `password`.
+    `<input type="text" size="50">`
+
+`maxlength`: Sets the maximum number of characters allowed in the input field.
+    `<input type="text" maxlength="4">`
+
+`min` and `max`: Specify the minimum and maximum values for an input. These attributes work with input types like `number`, `range`, `date`, `datetime-local`, `month`, `time`, and `week`.
+    `<input type="number" min="1" max="5">`
+
+`multiple`: Allows the user to enter or select more than one value. This is applicable for `email` and `file` input types.
+    `<input type="file" multiple>`
+
+`pattern`: Specifies a regular expression that the input field's value is checked against upon form submission. It is compatible with `text`, `date`, `search`, `url`, `tel`, `email`, and `password` types.
+
+    `<input type="text" pattern="[A-Za-z]{3}" title="Three letter country code">`
+
+
+`placeholder`: Provides a short hint or an example of the expected value in an input field before the user enters a value.
+    `<input type="tel" placeholder="123-45-678">`
+
+
+required`: Specifies that an input field must be filled out before the form can be submitted.
+   `<input type="text" required>`
+
+`step`: Defines the legal number intervals for an input field. For instance, `step="3"` would allow values like -3, 0, 3, 6, etc. It works with numeric, range, and date/time input types.
+    `<input type="number" step="3">`
+
+`autofocus`: Automatically gives focus to the input field when the page loads.
+    `<input type="text" autofocus>`
+
+`height` and `width`: Specify the height and width for an `<input type="image">` element, reserving space for the image on page load.
+    `<input type="image" src="submit.gif" alt="Submit" width="48" height="48">`
+
+`list`: Refers to a `<datalist>` element that contains a list of pre-defined options for an `<input>` element.
+    `<input list="browsers">`
+    `<datalist id="browsers">`
+      `<option value="Edge">`
+      `<option value="Firefox">`
+    `</datalist>`
+
+`autocomplete`: Controls whether the browser's autocomplete feature is `on` or `off` for a form or an individual input field.
+    `<form action="/action_page.php" autocomplete="on">`
+      `<input type="email" name="email" autocomplete="off">`
+    `</form>`
