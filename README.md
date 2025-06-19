@@ -217,8 +217,10 @@ HTML FORMS
     you'll commonly find the following elements:
 
     `<input>`: The most versatile form element, displayed in various ways depending on its type attribute (e.g., text, password, checkbox, radio).  
+
+
     > [!NOTE]
-    > we have to use name to make readio buttion work so that among the readion buttons those have same name only one is clicked  
+    > we have to use `name` attribute to make radio buttion work so that among the readion buttons those have same name only one is clicked  
 
 
     `<label>`: Defines a label for form elements, improving accessibility for screen readers and user interaction, especially for small clickable areas like radio buttons and checkboxes. It's linked to an input via its for attribute matching the input's id.  
