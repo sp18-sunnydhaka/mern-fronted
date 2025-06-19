@@ -86,7 +86,7 @@ We can make image clickable with the help of using <img usemap="# image-map-name
     
     - We can use background-image : url('')for setting background image for element and background-repeat : no-repeat; for image to not repeat itself and background-size:cover; to cover entire element and background attachment fixed so that it do not stretch
 
-`<pitcure>` is a useful tag to show images according to attribut media where we can set "min-width:650px " and srcset for source of the image and we use multiple `<source srcset>` for it
+`<pitcure>` is a useful tag to show images according to attribut media where we can set `media="min-width:650px"` and srcset for source of the image and we use multiple `<source srcset>` for it
 
 Link is used to link html sheet to external sheet 
 
@@ -160,3 +160,19 @@ The initial-scale=1.0 part sets the initial zoom level when the page is first lo
 The `<base>` tag must have either an href or a target attribute present, or both.  
 There can only be one single `<base>` element in a document!  
 If we set traget value of base element to _blank then all `<a>` will be opened in new tab even if target = "_blank" is not set in any of the `<a>`
+
+For Responsiveness of website 
+- we can use picture with different `<sources>` with `media` attribute to set `min-width` to show different pictures in different devices
+- `<h1 style="font-size:10vw">` The text size can be set with a "vw" unit, which means the "viewport width". That way the text size will follow the size of the browser window. Viewport is the browser window size. 1vw = 1% of viewport width. If the viewport is 50cm wide, 1vw is 0.5cm.
+- With media query we can set a break point of css how to style if `@media screen and (max-width: 800px)`
+
+
+    ==> `<header>` - Defines a header for a document or a section
+    ==> `<nav>` - Defines a set of navigation links
+    ==> `<section>` - Defines a section in a document
+    ==> `<article>` - Defines independent, self-contained content
+    ==> `<aside>` - Defines content aside from the content (like a sidebar)
+    ==> `<footer>` - Defines a footer for a document or a section
+    ==> `<details>` - Defines additional details that the user can open and close on demand
+    ==> `<summary>` - Defines a heading for the `<details>` element
+
