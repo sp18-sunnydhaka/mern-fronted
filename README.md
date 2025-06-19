@@ -304,3 +304,6 @@ formtarget: Overrides the target attribute of the parent `<form>`. It specifies 
 formnovalidate: A boolean attribute that specifies that the form-data should not be validated when submitted via that specific input. It overrides the novalidate attribute of the `<form>` element. This attribute works with the submit input type.
 
 novalidate: This is an attribute for the `<form>` element itself. When present, it specifies that none of the form-data should be validated upon submission.  
+
+
+![Alt text](/assets/Day4_task.png "Day 4 Task")
