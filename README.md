@@ -139,3 +139,24 @@ Following CSS option is available to
 
 
 ![Alt text](/assets/Day3_task.png "Day 3 Task")
+
+## Tuesday 18/6/2025 DAY 3
+
+`<iframe>` specifies an inline tag, src attribute defined attribute to be embed, we can title for `<iframe>` for screen readers height and width of `<iframe>` can be declared and `name` attribute can be used that can be targeted from `<a>` for link  
+
+
+- `<script>`	Defines a client-side script
+- `<noscript>`	Defines an alternate content for users that do not support client-side scripts
+
+The `<meta>` element is typically used to specify the character set, page description, keywords, author of the document, and   viewport settings and can also be used for refresh setting of the page http-equiv="refresh" content="30"  
+
+`<viewport>` setting:`<meta name="viewport" content="width=device-width, initial-scale=1.0">`  
+
+The width=device-width part sets the width of the page to follow the screen-width of the device (which will vary depending on the device).  
+
+The initial-scale=1.0 part sets the initial zoom level when the page is first loaded by the browser.  
+
+`<base>` The `<base>` element specifies the base URL and/or target for all relative URLs in a page.  
+The `<base>` tag must have either an href or a target attribute present, or both.  
+There can only be one single `<base>` element in a document!  
+If we set traget value of base element to _blank then all `<a>` will be opened in new tab even if target = "_blank" is not set in any of the `<a>`
