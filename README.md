@@ -176,3 +176,15 @@ For Responsiveness of website
     `<details>` - Defines additional details that the user can open and close on demand  
     `<summary>` - Defines a heading for the `<details>` element  
 
+HTML FORMS  
+
+    <input type="text">	Displays a single-line text input field
+    <input type="radio">	Displays a radio button (for selecting one of many choices)
+    <input type="checkbox">	Displays a checkbox (for selecting zero or more of many choices)
+    <input type="submit">	Displays a submit button (for submitting the form)
+    <input type="button">	Displays a clickable button
+
+
+    The <label> tag defines a label for many form elements. The <label> element is useful for screen-reader users, because the screen-reader will read out loud the label when the user focuses on the input element.The <label> element also helps users who have difficulty clicking on very small regions (such as radio buttons or checkboxes) - because when the user clicks the text within the <label> element, it toggles the radio button/checkbox. The for attribute of the <label> tag should be equal to the id attribute of the <input> element to bind them together.
+
+    
