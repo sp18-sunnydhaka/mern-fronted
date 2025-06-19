@@ -1,5 +1,5 @@
 # mern-frontend  
-## Monday 16/6/2025
+## Monday 16/6/2025 Day 1
 
 The visible part of an HTML document is between `<body></body>`.
 
@@ -62,7 +62,7 @@ Inline - In inline elements like `<span>` and `<img>` are laid horizontally
 ![Alt text](/assets/image.png "Day 2 Task")
 
 
-## Wednesday 18/6/2025
+## Wednesday 18/6/2025 day 3
 
 
     - To use an image as a link, we can  put <img> inside <a>  
@@ -140,7 +140,7 @@ Following CSS option is available to
 
 ![Alt text](/assets/Day3_task.png "Day 3 Task")
 
-## Tuesday 18/6/2025 DAY 3
+## Thrusday 19/6/2025 DAY 4
 
 `<iframe>` specifies an inline tag, src attribute defined attribute to be embed, we can title for `<iframe>` for screen readers height and width of `<iframe>` can be declared and `name` attribute can be used that can be targeted from `<a>` for link  
 
