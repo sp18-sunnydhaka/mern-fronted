@@ -12,25 +12,51 @@
         legend{
             color: navy;
         }
+        .fullName.placeholder :after{
+            content: " *";
+            color:red;
+        }
+        .fullName{
+            margin-right:5px;
+            padding:5px 10px;
+        }
+
+        .required:after {
+            content:" *";
+            color: red;
+        }
+        div {
+            margin: 10px;
+        }
     </style>
 </head>
 <body>
 
     <h1>Tech Conference 2025 Registration</h1>
 
-    <form id="registrationForm"   target="_blank" autocomplete="on" novalidate>
+    <form id="registrationForm"   target="_blank" autocomplete="on">
 
         <fieldset>
             <legend>Personal Information</legend>
-                <label for="fullName">Full Name:</label><br>
-                <input type="text" id="fullName" name="fullName" placeholder="e.g., Jane Doe" required autofocus size="50"><br>
-                <label for="email">Email Address:</label><br>
-                <input type="email" id="email" name="email" required placeholder="you@example.com" autocomplete="off"><br>
-                <label for="phone">Phone Number:</label><br>
+            <div>
+                <label for="fullName" class = "required">Full Name</label>
+                <input type="text" class="fullName" name="fullName" placeholder="First Name &ast;" required autofocus size="50" >
+                <input type="text" class="fullName" name="fullName" placeholder="Middle Name " autofocus size="50">
+                <input type="text" class="fullName" name="fullName" placeholder="Last Name &ast;" required autofocus size="50">
+            </div>
+            <div>
+                <label for="email" class = "required">Email Address</label>
+                <input type="email" id="email" name="email" required placeholder="you@example.com" autocomplete="off">
+            </div>
+            <div>
+                <label for="phone" class = "required">Phone Number</label>
                 <input type="text" value="+91" readonly disabled size="3">
-                <input type="tel" id="phone" name="phone" placeholder="123-456-7890" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" title="Please enter a valid phone number (e.g., 123-456-7890)"><br>
-                <label for="countryCode">Country Code (3 letters):</label><br>
+                <input type="tel" id="phone" name="phone" placeholder="123-456-7890" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" title="Please enter a valid phone number (e.g., 123-456-7890)">
+            </div>    
+            <div>
+                <label for="countryCode" class = "required">Country Code (3 letters):</label>
                 <input type="text" id="countryCode" name="countryCode" pattern="[A-Za-z]{3}" title="Three-letter country code" maxlength="3"><br>
+            </div>    
         </fieldset>
 
         <fieldset>
@@ -56,19 +82,34 @@
 
         <fieldset>
             <legend>Travel and Accommodation</legend>
+            <div>
                 <label for="arrivalDate">Arrival Date:</label><br>
                 <input type="date" id="arrivalDate" name="arrivalDate" min="2025-10-15" max="2025-10-25"><br>
-
+            </div>
+            <div>
                 <label for="attendees">Number of Attendees in your group (1-10):</label><br>
                 <input type="number" id="attendees" min="1" max="10" step="1" value="1"><br>
-
-                <label for="preferredHotel">Preferred Hotel (type to see suggestions):</label><br>
-                <input list="hotels" id="preferredHotel" name="preferredHotel"><br>
-                <datalist id="hotels">
-                    <option value="Burj khalifa">
-                    <option value="Trump Tower">
-                    <option value="Radison blue">
-                </datalist>
+            </div>
+            <div>
+                <label for="preferredHotel">Hotels: </label>
+                <select name="preferredHotel">
+                    <optgroup label="5 star hotels">
+                        <option value="Burj khalifa">Burj khalifa</option>
+                        <option value="Trump Tower">Trump Tower</option>
+                        <option value="Radison blue">Radison blue</option>
+                    </optgroup>
+                    <optgroup label="4 star hotels">
+                        <option value="Park Plaza Faridabad">Park Plaza Faridabad</option>
+                        <option value="Vibe by The LaLiT Traveller">Vibe by The LaLiT Traveller</option>
+                        <option value="Delite Sarovar Portico Faridabad">Delite Sarovar Portico Faridabad</option>
+                    </optgroup>
+                    <optgroup label="3 star hotels">
+                        <option value="Ginger Faridabad">Ginger Faridabad</option>
+                        <option value="Hotel Aravali Inn & Banquet Hall">Hotel Aravali Inn & Banquet Hall</option>
+                        <option value="FabExpress Mapple Suites">FabExpress Mapple Suites</option>
+                    </optgroup>
+                </select>
+            </div>
         </fieldset>
 
         <fieldset>
