@@ -1,0 +1,244 @@
+@media (max-width: 767px) {
+  /* Phone-specific styles */
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  /* Tablet-specific styles (optional) */
+    #navbar{
+        display:flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+
+    #navigation {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    width: 24px;
+    height: 24px;
+    position: relative;
+    cursor: pointer; 
+    }
+
+    #navigation li {
+    display: none;
+    }
+
+    #navigation::before {
+    content: ''; 
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-image: url('./assets/ic_Menu.svg');
+    background-size: contain; 
+    background-repeat: no-repeat;
+    background-position: center;
+    }
+
+    /* Make the parent container a flex container and 
+  set its direction to column so the items stack vertically.
+*/
+    #first-page {
+    display: flex;
+    flex-direction: column;
+    /* a-items property can be used to control the alignment */
+    align-items: center; /* This will keep your content centered */
+    }
+
+    /* Assign the order for each element. 
+    Elements with lower order numbers appear first.
+    */
+
+    /* 1. First, we want the section */
+    #first-page-section {
+    order: 1;
+    }
+
+    /* 2. Second, we want the main background image */
+    #first-page-bg {
+    order: 2;
+    }
+
+    /* 3. Third, we want the fieldset (form) */
+    #form-1 {
+    order: 3;
+    }
+
+    /* 4. The terms and conditions can come last */
+    .terms-cond {
+        order: 4;
+    }
+
+
+}
+
+@media (min-width: 992px) {
+
+    #logo{
+    margin-right: auto;
+    }
+
+    .hero{
+        display:flex;
+        justify-content: center;
+        background: hsla(189, 100%, 43%, 0.3);
+    }   
+
+
+
+    #navbar{
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        /* background: hsla(189, 100%, 43%, 0.3); */
+    }
+
+    #navigation{
+        display: flex;
+        justify-content: flex-end;
+        list-style-type: none;
+    }
+
+
+
+    .btn-primary{
+        font-size: 1rem;
+        font-family: 'Open Sans', sans-serif;
+        border-radius: 0.25rem;
+        padding :0.1rem 0.25rem;
+        background: hsla(189, 100%, 43%, 0.3);
+        cursor:pointer;
+        box-shadow: 0rem 0.75rem 1.5rem 0rem hsla(221, 55%, 18%, 0.1);
+        color:#1565D8;
+        border-color:#1565D8;
+        border-width: 1px;
+    }
+
+    .nav-list{
+        font-family: 'Open Sans', sans-serif;
+        font-size: 16px;
+        list-style-type: none;
+        margin-right: 40px;
+        color: #183B56;
+    }
+
+    .nav-list a{
+        text-decoration: none;
+    }
+
+
+    #first-page{
+        /* margin-top: 2rem;
+        min-height: 620px; 
+        background-image: url(./assets/Image\ \(2\).png);
+        background-repeat: no-repeat;
+        background-size: 509px 620px;
+        background-position: right top;
+        isolation: isolate; */
+        margin-top: 2rem;
+        min-height: 620px;
+        position: relative;
+    }
+
+    #first-page-bg {
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 509px;
+        height: 620px;
+        z-index: 2; 
+    }
+
+    #form-1, .terms-cond {
+        position: relative; 
+        z-index: 3; 
+    }
+
+    #first-page-section{
+        width:58.5%;
+        display: flex;
+        margin-bottom: 50px;
+    }
+
+    #first-page-section-part1{
+        margin:37px 75px 0px 0px;
+    }
+
+    #first-page-find-job-heading{
+        font-size: 56px;
+        font-weight: 700;
+        line-height: 68px;
+        letter-spacing: 0.2px;
+    }
+
+    #dots2{
+        width: 17.43%;
+        position: relative;
+        z-index: 1;
+    }
+    
+
+    .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 10rem;
+    padding: 0.75rem 1rem;
+    z-index: 100;
+    }
+
+    .dropdown:hover .dropdown-content {
+    display: block;
+    }
+
+    #form-1{
+        margin-bottom: 56px;
+        display: flex;
+        align-items: center;
+        width: 71.23%;
+        background: #FFFFFF;
+        border:none;
+        border-radius: 8px;
+        box-shadow: 0px 12px 16px 0px #00000014;
+    }
+
+    #form-part{
+        display: flex; 
+        justify-content: center;
+        align-items: center; 
+        border-right: 1px solid #E5EAF4;
+        border-width: 1px;
+        margin-left:30px;
+        margin-right: 113px;
+        /* margin-right: ; */
+    }
+    #form-part img{
+        margin-right: 18px;
+    }
+
+    #job-title{
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 100%;
+        letter-spacing: 0px;
+        color: #959EAD;
+        margin-left: 18px;
+    }
+
+
+    #search-job-btn{
+        background-color:hsla(155, 54%, 46%, 1); 
+        font-family: 'HK Grotesk', 'Open Sans', sans-serif;
+        font-size: 20px; 
+        line-height: 24px;
+        display: flex;
+        padding: 16px 48px;
+        justify-content: center;
+        border:none; 
+        color:white; 
+        cursor: pointer;
+        margin-left:auto;
+        border-radius: 5px;
+    }
+}

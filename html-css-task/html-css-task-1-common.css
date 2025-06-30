@@ -1,0 +1,62 @@
+
+@media (max-width: 767px) {
+  /* Phone-specific styles */
+}
+@media (min-width: 768px) and (max-width: 991px) {
+    .center-all{
+        width:86.51%; 
+        margin:0 auto;
+    }
+
+    
+}
+
+@media only screen and (min-width: 992px) {
+    
+    
+
+    #only-container{
+        max-width: 1440px;
+        margin :0 auto;
+    }
+    .center-all{
+        width:80%; 
+        margin:0 auto;
+    }
+}
+
+.terms-cond{
+    color: hsla(207, 19%, 44%, 1);
+}
+
+.inp-no-border{
+    border:none;
+}
+
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  margin:0;
+  background-color: #F0F8FF;
+}
+
+
+
+.card span button{
+    border:none;
+    background-color: #fff;
+}
+
+.circle {
+    height: 8px;
+    width: 8px;
+    background-color: white;
+    border-radius: 50%;
+    margin: 0 2px 2px 0;
+}
+
+
+.footer-color{
+    color: #5A7184;
+}
+

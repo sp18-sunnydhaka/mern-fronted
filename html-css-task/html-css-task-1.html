@@ -3,12 +3,698 @@
 <meta charset="UTF-8">
 <title>Page Title</title>
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<link rel="stylesheet" href="html-css-task-1.css">
+<link rel="stylesheet" href="html-css-task-1-common.css">
+<link rel="stylesheet" href="html-css-task-1-page-1.css">
+<link rel="stylesheet" href="html-css-task-1-page-2.css">
+<link rel="stylesheet" href="html-css-task-1-page-3.css">
+<link rel="stylesheet" href="html-css-task-1-page-4.css">
+<link rel="stylesheet" href="html-css-task-1-page-5.css">
+<link rel="stylesheet" href="html-css-task-1-page-6.css">
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/npm/typeface-hk-grotesk@1.0.0/index.min.css" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 <style>
 </style>
-<script src=""></script>
-<body>
-<h1>asd</h1>
 
+<body>
+
+
+<div id="only-container">
+<!-- 1st -->
+ 
+    <div class="hero" >
+            <nav id="navbar" class="center-all">
+                <img src="./assets/Logo.svg" alt="Logo" id="logo">
+                <ul id="navigation">
+                    <li class="nav-list"><a href="#">Home</a></li>
+                    <li class="nav-list">
+                        <a href="#" class="dropdown">
+                            Landings 
+                            <i class="fa-solid fa-angle-down drop-down-btn" style="font-size: 14px;">
+                            </i>
+                            <div class="dropdown-content">
+                                <p>Landings 1</p>
+                                <p>Landings 2</p>
+                                <p>Landings 3</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="nav-list">
+                        <a href="#" class="dropdown">
+                            pages 
+                            <i class="fa-solid fa-angle-down" style="font-size: 14px;">
+                            </i>
+                            <div class="dropdown-content">
+                                <p>pages 1</p>
+                                <p>pages 2</p>
+                                <p>pages 3</p> 
+                            </div>
+                        </a>
+                    </li>
+                    <li class="nav-list"><a href="#">Docs</a></li>
+                    <li class="nav-list"><a href="#">Help</a></li>
+                    <li class="nav-list"><Button class="btn-primary">Get it now</Button></li>
+                </ul>
+            </nav>
+    </div>
+
+    <div class="hero">
+        <div id="first-page" class="center-all">
+            <img src="./assets/Image (2).png" alt="page background" id="first-page-bg">
+
+            <section id="first-page-section">
+                <div id="first-page-section-part1">
+                    <img src="./assets/Element.png" alt="dots" id="dots1">
+                    <h1 id="first-page-find-job-heading">Find The Job 
+                        that Fits Your Life
+                    </h1>
+                </div>
+                <img src="./assets/Element2.png" alt="dots" id="dots2">
+            </section>
+            <fieldset id="form-1">
+                <div id="form-part">
+                    <img src="./assets/search.svg" alt="" id="search-job">
+                    <input type="text" placeholder="Job Tittle or Keyword" class="inp-no-border job-title">
+                </div>
+                <div id="form-part">
+                    <img src="./assets/map.svg" alt="" >
+                    <input list="browsers" placeholder="Yogyakarta, ID" id="browser" class="inp-no-border job-title">
+                    <datalist id="browsers" >
+                        <option value="Delhi">
+                        <option value="Mumbai">
+                        <option value="France">
+                        <option value="Bengluru">
+                    </datalist>
+                </div>
+                <div>
+                    <button id="search-job-btn" onclick="alert('Searched')">
+                        Search
+                    </button>
+                </div>
+            </fieldset>
+            <span class="terms-cond">
+                Most of jobs is trusted and certified by Ehya Policy.
+                <u>Read terms & condition</u>.
+            </span>
+        </div>
+    </div>    
+
+    <!-- 2nd -->
+
+    <div id="popular-category">
+
+        <div class="center-all" id="popular-category-heading" >
+            <div>
+                <h2 id="popular-category-main-heading">Popular category</h2>
+                <p class="terms-cond">You can search the happening jobs by click category below.</p>
+            </div>
+            <button id="see-all-button">
+                SEE ALL
+            </button>
+        </div>
+
+        <div class="cards">
+            <div class="card">
+                <div>
+                    <img src="./assets/Camera.svg" alt="" class="card-icon">
+                </div>
+                <h3>Photography</h3>
+                <span>
+                    100 jobs Opened 
+                    <button><img src="./assets/Icon.svg" alt=""></button>
+                </span>
+            </div>
+            <div class="card">
+                <div>
+                    <img src="./assets/anchor.svg" alt="" class="card-icon">
+                </div>
+                <h3>Writer</h3>
+                <span>
+                    100 jobs Opened 
+                    <button><img src="./assets/Icon.svg" alt=""></button>
+                </span>
+            </div>
+            <div class="card">
+                <div>
+                    <img src="./assets/anchor.svg" alt="" class="card-icon">
+                </div>
+                <h3>Writer 2</h3>
+                <span>
+                    100 jobs Opened 
+                    <button><img src="./assets/Icon.svg" alt=""></button>
+                </span>
+            </div>
+            <div class="card">
+                <div>
+                    <img src="./assets/copywriter.svg" alt="" class="card-icon">
+                </div>
+                <h3>Copywriter</h3>
+                <span>
+                    100 jobs Opened 
+                    <button><img src="./assets/Icon.svg" alt=""></button>
+                </span>
+            </div>
+            <div class="card">
+                <div>
+                    <img src="./assets/marketing.svg" alt="" class="card-icon">
+                </div>
+                <h3>Marketing</h3>
+                <span>
+                    100 jobs Opened 
+                    <button><img src="./assets/Icon.svg" alt=""></button>
+                </span>
+            </div>
+            <div class="card">
+                <div>
+                    <img src="./assets/design.svg" alt="" class="card-icon">
+                </div>
+                <h3>Designer</h3>
+                <span>
+                    100 jobs Opened 
+                    <button><img src="./assets/Icon.svg" alt=""></button>
+                </span>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- 3rd -->
+
+    <div class="job-for-you center-all">
+        <div class="job-for-you-title">
+            <p class="title-opened-jobs">Some opened jobs for you</p>
+            <div class="right-bottom">
+                <input list="position-options" placeholder="Show Items by : Opened Position" name="opened-position" id="opened-position">
+                <datalist id="position-options">
+                    <option value="Developer">
+                    <option value="Writer">
+                    <option value="Contentwriter">
+                    <option value="Hr">
+                </datalist>
+            </div>
+        </div>
+
+        <div class ="container">
+            <div class="job-card item-1">
+                <div>
+                    <div class="tag" style="background: rgba(233, 84, 50, 0.3);">
+                        <span class="circle" style="background-color: rgba(233, 84, 50, 1);"></span>
+                        <span>Marketing</span>
+                    </div>
+                    <p class="job-info">Associate Product Marketing Consumer Marketing</p>
+                </div>
+                <div class="loc-time">
+                    <p>
+                        <img src="./assets/Object.svg" alt="">
+                        Amsterdam
+                    </p>
+                    <p>
+                        <img src="./assets/clock (1).svg" alt="">
+                        Full time
+                    </p>
+                </div>
+                <div class="time-ago">
+                    <img src="./assets/item2.svg" alt="">
+                    <p class="time-ago-company-name">Mailchimp</p>
+                    <div class="circle" style="background: #E8EAED; width: 5px; height: 5px;"></div>
+                    <p class="time-ago-company-name-posted">13 Hours ago</p>
+                </div>
+            </div>
+            
+            <div class="job-card item-2">
+                <div>
+                    <div class="tag" style="background: rgba(0, 184, 217, 0.3);">
+                        <span class="circle" style="background: rgba(0, 184, 217, 1);"></span>
+                        <span>Design</span>
+                    </div>
+                    <p class="job-info">Associate Product Marketing Consumer Marketing</p>
+                </div>
+                <div class="loc-time">
+                    <p>
+                        <img src="./assets/Object.svg" alt="">
+                        New York
+                    </p>
+                    <p>
+                        <img src="./assets/clock (1).svg" alt="">
+                        Full time
+                    </p>
+                </div>
+                <div class="time-ago">
+                    <img src="./assets/item5.svg" alt="">
+                    <p class="time-ago-company-name">Mailchimp</p>
+                    <div class="circle" style="background: #E8EAED; width: 5px; height: 5px;"></div>
+                    <p class="time-ago-company-name-posted">13 Hours ago</p>
+                </div>
+            </div>
+            
+            <div class="job-card item-3">
+                <div>
+                    <div class="tag" style="background: rgba(54, 179, 126, 0.3);">
+                        <span class="circle" style="background: rgba(54, 179, 126, 1);"></span>
+                        <span>Development</span>
+                    </div>
+                    <p class="job-info">Associate Product Marketing Consumer Marketing</p>
+                </div>
+                <div class="loc-time">
+                    <p>
+                        <img src="./assets/Object.svg" alt="">
+                        Tokyo
+                    </p>
+                    <p>
+                        <img src="./assets/clock (1).svg" alt="">
+                        Part Time
+                    </p>
+                </div>
+                <div class="time-ago">
+                    <img src="./assets/item6.svg" alt="">
+                    <p class="time-ago-company-name">Mailchimp</p>
+                    <div class="circle" style="background: #E8EAED; width: 5px; height: 5px;"></div>
+                    <p class="time-ago-company-name-posted">13 Hours ago</p>
+                </div>
+            </div>
+            
+
+            <div class="item-4">
+                    <img src="./assets/Image3.png" alt="" style="width: 100%;">
+                <p class="big-card-text">
+                    Tips From Pro : How apply a jobs
+                    on a Startup for Fresh Graduate
+                    like you  |  JobBlog ep;04 
+                </p>
+                <div class="time-ago" style="justify-content: flex-start;">
+                    <img src="./assets/item4.svg" alt="">
+                    <p class="time-ago-company-name">Mailchimp</p>
+                    <div class="circle" style="background: #E8EAED; width: 5px; height: 5px;"></div>
+                    <p class="time-ago-company-name-posted">13 Hours ago</p>
+                </div>
+            </div>
+
+            <div class="job-card item-5">
+                <div>
+                    <div class="tag" style="background: rgba(250, 173, 19, 0.3);">
+                        <span class="circle" style="background: rgba(250, 173, 19, 1);"></span>
+                        <span>Buisness</span>
+                    </div>
+                    <p class="job-info">Associate Product Marketing Consumer Marketing</p>
+                </div>
+                <div class="loc-time">
+                    <p>
+                        <img src="./assets/Object.svg" alt="">
+                        Amsterdam
+                    </p>
+                    <p>
+                        <img src="./assets/clock (1).svg" alt="">
+                        Full time
+                    </p>
+                </div>
+                <div class="time-ago">
+                    <img src="./assets/item2.svg" alt="">
+                    <p class="time-ago-company-name">Mailchimp</p>
+                    <div class="circle" style="background: #E8EAED; width: 5px; height: 5px;"></div>
+                    <p class="time-ago-company-name-posted">13 Hours ago</p>
+                </div>
+            </div>
+            
+            <div class="job-card item-6">
+                <div>
+                    <div class="tag" style="background: rgba(63, 89, 138, 0.3);">
+                        <span class="circle" style="background: rgba(63, 89, 138, 0.3);"></span>
+                        <span>Sales</span>
+                    </div>
+                    <p class="job-info">Associate Product Marketing Consumer Marketing</p>
+                </div>
+                <div class="loc-time">
+                    <p>
+                        <img src="./assets/Object.svg" alt="">
+                        Delhi
+                    </p>
+                    <p>
+                        <img src="./assets/clock (1).svg" alt="">
+                        Full time
+                    </p>
+                </div>
+                <div class="time-ago">
+                    <img src="./assets/item6.svg" alt="">
+                    <p class="time-ago-company-name">Mailchimp</p>
+                    <div class="circle" style="background: #E8EAED; width: 5px; height: 5px;"></div>
+                    <p class="time-ago-company-name-posted">13 Hours ago</p>
+                </div>
+            </div>
+            
+            <div class="job-card item-7">
+                <div>
+                    <div class="tag" style="background: rgba(233, 84, 50, 0.3);">
+                        <span class="circle" style="background: rgba(233, 84, 50, 1);"></span>
+                        <span>Customer support</span>
+                    </div>
+                    <p class="job-info">Associate Product Marketing Consumer Marketing</p>
+                </div>
+                <div class="loc-time">
+                    <p>
+                        <img src="./assets/Object.svg" alt="">
+                        Mumbai
+                    </p>
+                    <p>
+                        <img src="./assets/clock (1).svg" alt="">
+                        Full time
+                    </p>
+                </div>
+                <div class="time-ago">
+                    <img src="./assets/item7.svg" alt="">
+                    <p class="time-ago-company-name">Mailchimp</p>
+                    <div class="circle" style="background: #E8EAED; width: 5px; height: 5px;"></div>
+                    <p class="time-ago-company-name-posted">13 Hours ago</p>
+                </div>
+            </div>
+
+            <div class="last-card item-8">
+                <div>
+                    <p class="jobs-no">328+</p>
+                    <p class="total-jobs">Total Jobs Opened</p>
+                </div>
+                <button class="explore-btn">EXPLORE JOBS</button>
+            </div>
+            
+            
+        </div>
+    </div>
+
+
+    <!-- 4th -->
+
+    <div class="companies-headings">
+        <div>
+            <p id="company-text">
+                We help not one,
+                but many companies
+            </p>
+            <p id="company-text-info">We have many more company partners all around the world</p>
+        </div>
+    </div>
+
+    <div class="companies">
+        <div class="companies-cards">
+            <div class="companies-card">
+                <div class="company-logo">
+                    <img src="./assets/Logo3.svg" alt="" class="company-card-icon">
+                    <hr class="horizontal-line">
+                </div>
+
+                <span class="company-info">
+                    We help Netflix find the 
+                    talent that suitable with 
+                    the company needed
+                </span>
+            </div>
+
+            <div class="companies-card">
+                <div class="company-logo">
+                    <img src="./assets/Logo2.svg" alt="" class="company-card-icon">
+                    <hr class="horizontal-line">
+                </div>
+
+                <span class="company-info">
+                    We help Netflix find the 
+                    talent that suitable with 
+                    the company needed
+                </span>
+            </div>
+
+            <div class="companies-card">
+                <div class="company-logo">
+                    <img src="./assets/Logo1.svg" alt="" class="company-card-icon">
+                    <hr class="horizontal-line">
+                </div>
+
+                <span class="company-info">
+                    We help Netflix find the 
+                    talent that suitable with 
+                    the company needed
+                </span>
+            </div>
+            
+            <div class="companies-card">
+                <div class="company-logo">
+                    <img src="./assets/Logo3.svg" alt="" class="company-card-icon">
+                    <hr class="horizontal-line">
+                </div>
+
+                <span class="company-info">
+                    We help Netflix find the 
+                    talent that suitable with 
+                    the company needed
+                </span>
+            </div>
+
+            <div class="companies-card">
+                <div class="company-logo">
+                    <img src="./assets/Logo2.svg" alt="" class="company-card-icon">
+                    <hr class="horizontal-line">
+                </div>
+
+                <span class="company-info">
+                    We help Netflix find the 
+                    talent that suitable with 
+                    the company needed
+                </span>
+            </div>
+
+            <div class="companies-card">
+                <div class="company-logo">
+                    <img src="./assets/Logo1.svg" alt="" class="company-card-icon">
+                    <hr class="horizontal-line">
+                </div>
+
+                <span class="company-info">
+                    We help Netflix find the 
+                    talent that suitable with 
+                    the company needed
+                </span>
+            </div>
+
+            <div class="companies-card">
+                <div class="company-logo">
+                    <img src="./assets/Logo3.svg" alt="" class="company-card-icon">
+                    <hr class="horizontal-line">
+                </div>
+
+                <span class="company-info">
+                    We help Netflix find the 
+                    talent that suitable with 
+                    the company needed
+                </span>
+            </div>
+
+            <div class="companies-card">
+                <div class="company-logo">
+                    <img src="./assets/Logo2.svg" alt="" class="company-card-icon">
+                    <hr class="horizontal-line">
+                </div>
+
+                <span class="company-info">
+                    We help Netflix find the 
+                    talent that suitable with 
+                    the company needed
+                </span>
+            </div>
+            
+            
+        </div>
+    </div>
+
+    <!-- 5th page -->
+
+    <div class="center-all">
+        <div class="articles-heading">
+            <div id="articles-align">
+                <p id="articles-main-heading">
+                    Article and 
+                    Podcast collection
+                </p>
+                <p id="articles-main-heading-desc"> 
+                    I know for you search a jobs its not easy and needs some tips & trick.
+                    Thats why we show you some podcast and best article about jobs.
+                    We hope it can help you to get new much insight
+                </p>
+            </div>
+        </div>
+
+
+        <div id="articles-container">
+
+            <div class="articles-sec article-1">
+                <div >
+                    <img src="./assets/Logo4.svg" alt="" class="company-article-logo">
+                </div>
+                <div class="compl-article-info">
+                    <p class="article-info">Thirthy days get a Jobs</p>
+                    <div class="article-author">
+                        <p class="author-name">by Tamas Bunce</p>
+                        <div class="circle" style="background: #E8EAED;"></div>
+                        <p class="episode-list">12 Episodes</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="articles-sec article-2">
+                <div >
+                    <img src="./assets/Logo5.svg" alt="" class="company-article-logo">
+                </div>
+                <div class="compl-article-info">
+                    <p class="article-info">Level Up Podcast</p>
+                    <div class="article-author">
+                        <p class="author-name">by Samira Alaydrus</p>
+                        <div class="circle" style="background: #E8EAED;"></div>
+                        <p class="episode-list">5 min read</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="articles-sec article-2">
+                <div >
+                    <img src="./assets/Logo5.svg" alt="" class="company-article-logo">
+                </div>
+                <div class="compl-article-info">
+                    <p class="article-info">Level Up Podcast</p>
+                    <div class="article-author">
+                        <p class="author-name">by Samira Alaydrus</p>
+                        <div class="circle" style="background: #E8EAED;"></div>
+                        <p class="episode-list">5 min read</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="articles-sec article-1">
+                <div >
+                    <img src="./assets/Logo4.svg" alt="" class="company-article-logo">
+                </div>
+                <div class="compl-article-info">
+                    <p class="article-info">Thirthy days get a Jobs</p>
+                    <div class="article-author">
+                        <p class="author-name">by Tamas Bunce</p>
+                        <div class="circle" style="background: #E8EAED;"></div>
+                        <p class="episode-list">12 Episodes</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="articles-sec article-2">
+                <div >
+                    <img src="./assets/Logo5.svg" alt="" class="company-article-logo">
+                </div>
+                <div class="compl-article-info">
+                    <p class="article-info">Level Up Podcast</p>
+                    <div class="article-author">
+                        <p class="author-name">by Samira Alaydrus</p>
+                        <div class="circle" style="background: #E8EAED;"></div>
+                        <p class="episode-list">5 min read</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="articles-sec article-1">
+                <div >
+                    <img src="./assets/Logo4.svg" alt="" class="company-article-logo">
+                </div>
+                <div class="compl-article-info">
+                    <p class="article-info">Thirthy days get a Jobs</p>
+                    <div class="article-author">
+                        <p class="author-name">by Tamas Bunce</p>
+                        <div class="circle" style="background: #E8EAED;"></div>
+                        <p class="episode-list">12 Episodes</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="articles-sec article-1">
+                <div >
+                    <img src="./assets/Logo4.svg" alt="" class="company-article-logo">
+                </div>
+                <div class="compl-article-info">
+                    <p class="article-info">Thirthy days get a Jobs</p>
+                    <div class="article-author">
+                        <p class="author-name">by Tamas Bunce</p>
+                        <div class="circle" style="background: #E8EAED;"></div>
+                        <p class="episode-list">12 Episodes</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="articles-sec article-2">
+                <div >
+                    <img src="./assets/Logo5.svg" alt="" class="company-article-logo">
+                </div>
+                <div class="compl-article-info">
+                    <p class="article-info">Level Up Podcast</p>
+                    <div class="article-author">
+                        <p class="author-name">by Samira Alaydrus</p>
+                        <div class="circle" style="background: #E8EAED;"></div>
+                        <p class="episode-list">5 min read</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- 6th page -->
+
+    <div class="yogya-info">
+        <div class="center-all yogya-inner-info">
+            <p class="yogya-text">
+                Youre now look
+                jobs from 
+                <u class="yogya-specific">
+                    <span >Yogyakarta</span>
+                    <i class="fa-solid fa-angle-down drop-down-btn" style="font-size: 24px; margin-left: 18px;"></i>
+                </u>
+            </p>
+            <button class="job-searching">
+                <img src="./assets/search.svg" alt="">
+                Search Jobs Now
+            </button>
+        </div>
+
+        <footer class="compl-footer">
+            <div>
+                <img src="./assets/footerlogo.png" alt="">
+            </div>
+            <div class="change-block">
+                <div class="footer-color footer-heading">Product</div>
+                <div class="footer-color footer-desc">Landingpage</div>
+                <div class="footer-color footer-desc">Features</div>
+                <div class="footer-color footer-desc">Documentation</div>
+                <div class="footer-color footer-desc">Referral Program</div>
+                <div class="footer-color footer-desc">Pricing</div>
+            </div>
+            <div class="change-block">
+                <div class="footer-color footer-heading">Services</div>
+                <div class="footer-color footer-desc">Documentation</div>
+                <div class="footer-color footer-desc">Design</div>
+                <div class="footer-color footer-desc">Themes</div>
+                <div class="footer-color footer-desc">Illustrations</div>
+                <div class="footer-color footer-desc">UI Kit</div>
+            </div>
+            <div class="change-block">
+                <div class="footer-color footer-heading">Company</div>
+                <div class="footer-color footer-desc">About</div>
+                <div class="footer-color footer-desc">Terms</div>
+                <div class="footer-color footer-desc">Privacy Policy</div>
+                <div class="footer-color footer-desc">Careers</div>
+            </div>
+            <div class="change-block">
+                <div class="footer-color footer-heading">More</div>
+                <div class="footer-color footer-desc">LDocumentation</div>
+                <div class="footer-color footer-desc">License</div>
+                <div class="footer-color footer-desc">Changelog</div>
+            </div>
+        </footer>
+        <div id="bottom">
+            <img src="./assets/Bottom.png" alt="" >
+        </div>
+    </div>
+</div>
 </body>
 </html>
+
+
