@@ -485,7 +485,7 @@ Created first page for figma design with navbar
 * **`sort()`**: **Sorts the elements** of an array in place and returns the sorted array. The default sort order is ascending, built upon converting the elements into strings, then comparing their sequences of UTF-16 code units values.
 
 
-## Tuesday 30/07/2025 Day12
+## Tuesday 1/07/2025 Day12
 
 * **Definition**: Objects are **collections of key-value pairs**. They are a fundamental data type in JavaScript, used to store various keyed collections and more complex entities.
 * **Properties**: Each key-value pair in an object is called a **property**. Keys (also known as property names) are typically strings (or symbols), and values can be any JavaScript data type (primitives, functions, other objects, etc.).
@@ -560,3 +560,39 @@ Created first page for figma design with navbar
     const { name, age } = myObject;
     console.log(name); // "Alice"
     ```
+
+
+
+## Wednesday 2/07/2025 Day12
+
+* **`for` Loop**: Execute code a **specific number of times**. Perfect when you know the iteration count beforehand.
+    ```javascript
+    for (let i = 0; i < 5; i++) { /* code */ }
+    ```
+* **`while` Loop**: Repeat code **as long as a condition is true**. The condition is checked *before* each execution.
+    ```javascript
+    while (condition) { /* code */ }
+    ```
+* **`do...while` Loop**: Ensures the code runs **at least once**, then repeats if the condition remains true (checked *after* the first run).
+    ```javascript
+    do { /* code */ } while (condition);
+    ```
+* **Nested Loops**: One loop placed **inside another**, commonly used for iterating over multi-dimensional structures.
+
+## Iterating Collections
+
+* **Arrays**:
+    * **`for...of`**: The modern way to iterate directly over the **values** of an array.
+        ```javascript
+        for (const item of myArray) { /* code */ }
+        ```
+    * Also commonly done with **`forEach()`** (an array method).
+* **Objects**:
+    * **`for...in`**: Loops over the **keys (property names)** of an object. Use with caution, as it can include inherited properties.
+    * **`Object.keys()`, `Object.values()`, `Object.entries()`**: These methods convert object data into arrays, which can then be easily iterated using `for...of` or `forEach()`.
+
+## Loop Control Statements
+
+* **`break`**: **Immediately stops** the entire loop and continues execution from the code *after* the loop.
+* **`continue`**: **Skips the current iteration** of the loop and moves directly to the next iteration.
+
