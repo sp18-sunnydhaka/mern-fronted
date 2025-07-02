@@ -161,6 +161,13 @@ The `<base>` tag must have either an href or a target attribute present, or both
 There can only be one single `<base>` element in a document!  
 If we set traget value of base element to _blank then all `<a>` will be opened in new tab even if target = "_blank" is not set in any of the `<a>`
 
+
+![Alt text](/assets/Day4_task.png "Day 4 Task")
+
+
+
+## Thrusday 20/6/2025 DAY 5
+
 For Responsiveness of website 
 - we can use picture with different `<sources>` with `media` attribute to set `min-width` to show different pictures in different devices
 - `<h1 style="font-size:10vw">` The text size can be set with a "vw" unit, which means the "viewport width". That way the text size will follow the size of the browser window. Viewport is the browser window size. 1vw = 1% of viewport width. If the viewport is 50cm wide, 1vw is 0.5cm.
@@ -306,4 +313,250 @@ formnovalidate: A boolean attribute that specifies that the form-data should not
 novalidate: This is an attribute for the `<form>` element itself. When present, it specifies that none of the form-data should be validated upon submission.  
 
 
-![Alt text](/assets/Day4_task.png "Day 4 Task")
+
+## Monday 23/06/2025 Day6
+
+* **Personal Information:**
+    * **Full Name:** Requires first and last name; optional middle name.
+    * **Email Address:** Required field with email format validation.
+    * **Phone Number:** Includes a pre-filled, disabled country code (+91) and a field for a 10-digit phone number with a specific pattern.
+    * **Country Code:** Requires a three-letter country code.
+
+* **Conference Preferences:**
+    * **Primary Area of Interest:** Radio buttons for selecting one interest (Artificial Intelligence, Web Development, Cloud Computing). AI is pre-selected.
+    * **Workshops:** Checkboxes to select multiple workshops. "Public Speaking for Nerds" is marked as sold out and disabled.
+
+* **Travel and Accommodation:**
+    * **Arrival Date:** Date picker with a range from October 15, 2025, to October 25, 2025.
+    * **Number of Attendees:** Numeric input for group size (1 to 10 attendees).
+    * **Preferred Hotel:** Dropdown menu categorized by star ratings (5-star, 4-star, 3-star).
+
+* **Additional Information:**
+    * **Dietary Restrictions:** Text area for attendees to specify dietary needs.
+    * **T-Shirt Size:** A slider for selecting T-shirt size (1 to 5, presumably S-XXL).
+    * **Resume Upload:** Option to upload multiple files for a job fair.
+    * **Registration Code:** A read-only field displaying "TC2025-GUEST".
+
+* The form includes two submit buttons:
+    * **Register Now:** Submits the form with validation.
+    * **Submit without Validation:** Submits the form bypassing validation rules.
+
+
+## Tuesday 24/06/2025 Day7
+
+Medical leave
+
+
+## Wednesday 25/06/2025 Day8
+
+Created first page for figma design with navbar 
+
+* **Responsive Navigation Bar:**
+    * Features a company logo.
+    * Includes essential links: Home, Docs, Help.
+    * Incorporates **"Landings"** and **"Pages" dropdown menus** for expanded navigation.
+    * A prominent **"Get it now" call-to-action button** is included.
+
+* **Dynamic Hero Section:**
+    * A large background image sets the visual tone.
+    * A compelling main heading: **"Find The Job that Fits Your Life."**
+    * Decorative elements are used to enhance visual appeal.
+
+* **Interactive Job Search Form:**
+    * **"Job Title or Keyword"** input with a search icon.
+    * **Location input** with a map icon and pre-defined suggestions (e.g., Delhi, Mumbai).
+    * A **"Search" button** provides immediate feedback upon click.
+
+* **Terms and Conditions:**
+    * A clear statement about job trust and policy, with a clickable link to **"Read terms & condition."**
+
+
+* Utilizes **Flexbox** for efficient layout and alignment of key sections.
+* **Dropdown menus** are implemented to appear on hover, providing a clean user experience.
+* The **search form** is styled with a clean white background, rounded corners, and a subtle shadow.
+* The **"Search" button** is distinctively styled for clear visibility and user interaction.
+
+
+## Thruday 26/06/2025 Day9
+
+* **Heading & Description:**
+    * **"Popular category"** as the main title.
+    * A descriptive line: "You can search the happening jobs by click category below."
+    * A **"SEE ALL" button** for navigation to all categories.
+
+* **Category Cards (`cards`):** Displays a grid of job categories, each with:
+    * An **icon** (e.g., Camera, Anchor, Copywriter, Marketing, Design).
+    * A **category title** (e.g., Photography, Writer, Copywriter, Marketing, Designer).
+    * A count of **"jobs Opened"** (e.g., "100 jobs Opened").
+    * An interactive button with an icon for likely further action.
+
+
+* **Section Title & Filter:**
+    * **"Some opened jobs for you"** as the section heading.
+    * A **"Show Items by : Opened Position" filter** with a dropdown (`datalist`) for common positions (Developer, Writer, Contentwriter, HR).
+
+* **Job Listing Cards (`container`):** Displays individual job postings, each including:
+    * **Job Tag:** A colored tag indicating the job **category** (e.g., Marketing, Design, Development, Business, Sales, Customer support).
+    * **Job Information:** A short description of the role (e.g., "Associate Product Marketing Consumer Marketing").
+    * **Location and Type:** Icons and text for **job location** (e.g., Amsterdam, New York, Tokyo, Delhi, Mumbai) and **employment type** (Full time, Part Time).
+    * **Company and Posting Time:** The **company logo** (e.g., Mailchimp) and a note on **when it was posted** (e.g., "13 Hours ago").
+
+* **Featured Content Card:**
+    * A larger card (`item-4`) that displays an **image** and a text block titled: **"Tips From Pro : How apply a jobs on a Startup for Fresh Graduate like you | JobBlog ep;04."**
+    * Includes company logo and posting time, similar to job cards.
+
+* **Total Jobs Summary Card:**
+    * A concluding card displaying **"328+"** for the "Total Jobs Opened."
+    * An **"EXPLORE JOBS" button** to encourage further exploration.
+
+
+## Friday 27/06/2025 Day10
+
+
+* **Header Content:**
+    * A prominent heading: **"We help not one, but many companies."**
+    * A supporting line: "We have many more company partners all around the world."
+
+* **Company Cards (`companies-cards`):**
+    * Displays a grid of **individual company cards**, each representing a partnership.
+    * Each card features:
+        * A **company logo** (e.g., Logo3.svg, Logo2.svg, Logo1.svg).
+        * A horizontal rule (`<hr>`) for visual separation.
+        * A descriptive text detailing the partnership's value proposition, consistently stating: **"We help Netflix find the talent that suitable with the company needed."** (Note: The text is identical for all cards in the provided HTML, suggesting a placeholder or a consistent service offering).
+
+* **Section Heading and Description:**
+    * **"Article and Podcast collection"** as the main title.
+    * A welcoming and informative description: "I know for you search a jobs its not easy and needs some tips & trick. That's why we show you some podcast and best article about jobs. We hope it can help you to get new much insight."
+
+* **Article Cards (`articles-container`):**
+    * A grid of **article/podcast cards** designed to provide job-seeking insights.
+    * Each card features:
+        * A **company/series logo** (e.g., Logo4.svg, Logo5.svg).
+        * A **title** (e.g., "Thirty days get a Jobs," "Level Up Podcast").
+        * **Author information** (e.g., "by Tamas Bunce," "by Samira Alaydrus").
+        * **Content length/episode count** (e.g., "12 Episodes," "5 min read").
+
+## Location Information & Footer
+
+* **Location Focus (`yogya-info`):**
+    * A prominent text stating: **"You're now look jobs from Yogyakarta."**
+    * The city name **"Yogyakarta" is underlined and clickable**, with a dropdown icon, suggesting it might open a location selector.
+    * A clear **"Search Jobs Now" button** with a search icon to encourage immediate action.
+
+* **Comprehensive Footer (`compl-footer`):**
+    * **Company Logo:** Displays the footer logo (`footerlogo.png`).
+    * **Navigation Categories:** Organized into several columns for easy access:
+        * **Product:** Including Landingpage, Features, Documentation, Referral Program, Pricing.
+        * **Services:** Including Documentation, Design, Themes, Illustrations, UI Kit.
+        * **Company:** Including About, Terms, Privacy Policy, Careers.
+        * **More:** Including Documentation (likely a typo, perhaps intended as another category), License, Changelog.
+    * **Bottom Element:** An image (`Bottom.png`) is included at the very bottom, likely for decorative purposes or a subtle brand element.
+
+## Monday 30/06/2025 Day11
+
+* **`push()`**: Adds one or more elements to the **end** of an array and returns the new length.
+* **`pop()`**: **Removes the last element** from an array and returns that element.
+* **`unshift()`**: Adds one or more elements to the **beginning** of an array and returns the new length.
+* **`shift()`**: **Removes the first element** from an array and returns that element.
+* **`splice()`**: **Changes the contents** of an array by removing existing elements and/or adding new elements. Returns an array containing the deleted elements.
+
+## Accessor Methods (Non-Mutating)
+
+* **`concat()`**: **Joins two or more arrays** and returns a *new* array.
+* **`slice()`**: **Extracts a section** of an array and returns a *new* array. Does not modify the original array.
+* **`indexOf()`**: Returns the **first index** at which a given element can be found in the array, or `-1` if it is not present.
+* **`lastIndexOf()`**: Returns the **last index** at which a given element can be found in the array, or `-1` if it is not present.
+* **`includes()`**: Determines whether an array **includes a certain value** among its entries, returning `true` or `false`.
+
+## Iteration Methods
+
+* **`forEach()`**: Executes a **provided function once for each array element**.
+* **`map()`**: Creates a **new array** populated with the results of calling a provided function on every element in the calling array.
+* **`filter()`**: Creates a **new array** with all elements that pass the test implemented by the provided function.
+* **`reduce()`**: Executes a **reducer function** (that you provide) on each element of the array, resulting in single output value.
+* **`some()`**: Checks if **at least one** element in the array passes the test implemented by the provided function.
+* **`every()`**: Checks if **all elements** in the array pass the test implemented by the provided function.
+
+## Utility Methods
+
+* **`isArray()`**: Determines whether the passed value is an **`Array`**.
+* **`join()`**: Creates and returns a **new string** by concatenating all of the elements in an array (or an array-like object), separated by commas or a specified separator string.
+* **`reverse()`**: **Reverses an array** in place. The first array element becomes the last, and the last array element becomes the first.
+* **`sort()`**: **Sorts the elements** of an array in place and returns the sorted array. The default sort order is ascending, built upon converting the elements into strings, then comparing their sequences of UTF-16 code units values.
+
+
+## Tuesday 30/07/2025 Day12
+
+* **Definition**: Objects are **collections of key-value pairs**. They are a fundamental data type in JavaScript, used to store various keyed collections and more complex entities.
+* **Properties**: Each key-value pair in an object is called a **property**. Keys (also known as property names) are typically strings (or symbols), and values can be any JavaScript data type (primitives, functions, other objects, etc.).
+* **Methods**: When a property's value is a **function**, it's referred to as a **method** of that object.
+
+* **Object Literal**: The simplest and most common way to create an object using curly braces `{}`.
+    ```javascript
+    const myObject = {
+        name: "Alice",
+        age: 30,
+        greet: function() {
+            console.log(`Hello, my name is ${this.name}`);
+        }
+    };
+    ```
+* **`new Object()`**: A less common but valid way to create an empty object, then add properties.
+    ```javascript
+    const anotherObject = new Object();
+    anotherObject.city = "New York";
+    ```
+* **Constructor Functions / Classes**: Used to create multiple objects with similar properties and methods.
+    ```javascript
+    function Person(name, age) {
+        this.name = name;
+        this.age = age;
+    }
+    const person1 = new Person("Bob", 25);
+    ```
+
+* **Dot Notation**: Preferred when the property name is a valid identifier.
+    ```javascript
+    console.log(myObject.name); // "Alice"
+    myObject.age = 31;
+    ```
+* **Bracket Notation**: Required when property names contain spaces, special characters, or are dynamic (e.g., stored in a variable).
+    ```javascript
+    console.log(myObject["name"]); // "Alice"
+    const prop = "age";
+    console.log(myObject[prop]); // 31
+    ```
+* **Adding New Properties**: Simply assign a value to a new property name using dot or bracket notation.
+    ```javascript
+    myObject.occupation = "Engineer";
+    ```
+* **Deleting Properties**: Use the `delete` operator.
+    ```javascript
+    delete myObject.age;
+    ```
+
+* **`Object.keys()`**: Returns an **array of a given object's own enumerable string property names**.
+    ```javascript
+    Object.keys(myObject); // ["name", "greet", "occupation"]
+    ```
+* **`Object.values()`**: Returns an **array of a given object's own enumerable string property values**.
+    ```javascript
+    Object.values(myObject); // ["Alice", [Function: greet], "Engineer"]
+    ```
+* **`Object.entries()`**: Returns an **array of a given object's own enumerable string property [key, value] pairs**.
+    ```javascript
+    Object.entries(myObject); // [["name", "Alice"], ["greet", [Function: greet]], ["occupation", "Engineer"]]
+    ```
+* **`hasOwnProperty()`**: Returns a boolean indicating whether the object **has the specified property as its own property** (not inherited).
+    ```javascript
+    myObject.hasOwnProperty("name"); // true
+    ```
+* **Spread Syntax (`...`)**: Used for easily **copying properties** from one object into another or for merging objects.
+    ```javascript
+    const newObject = { ...myObject, hobby: "Reading" };
+    ```
+* **Destructuring**: A convenient way to **extract values from objects** into distinct variables.
+    ```javascript
+    const { name, age } = myObject;
+    console.log(name); // "Alice"
+    ```
