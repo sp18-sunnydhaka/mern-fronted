@@ -310,13 +310,75 @@
 // const z = x();
 
 
-const counter = {
-    count:0,
-    start:()=>{
-        setTimeout(()=>{
-            this.count++;
-            console.log(this.count);
-        },1000)
-    }
+// const counter = {
+//     count:0,
+//     start:()=>{
+//         setTimeout(()=>{
+//             this.count++;
+//             console.log(this.count);
+//         },1000)
+//     }
+// }
+// counter.start();
+
+
+
+// difference between let and var in below
+
+// function x(){
+//     for(let i =0;i<=5;i++){
+//         setTimeout(()=>{
+//             console.log(i);
+//         },i*1000);
+//     }
+//     console.log("last line");
+// }
+
+// x();
+
+
+// function x(){
+//    for(let i =0;i<=5;i++){
+
+//     function close(i){
+//        setTimeout(()=>{
+//            console.log(i);
+//        },i*1000);
+//     }
+
+//     close(i);
+//    }
+//    console.log("last line");
+// }
+ 
+// x()
+
+
+// a();
+// // b();
+
+// function a(){
+//     console.log("a is called");
+// }
+
+// let b = function (){
+//     console.log("b is called");
+// }
+
+
+function attachEventListeners(){
+    let count = 0;
+    document.getElementById('clickMe').addEventListener(
+        'click',
+        function xyz()
+        {console.log("button clicked", ++count);}
+    )
 }
-counter.start();
+attachEventListeners();
+
+
+
+
+
+
+
