@@ -34,16 +34,16 @@
     background-color: black;
 }
 
-.blue-box{
+#blue-box{
     margin-top: 20px;
     width :40px;
     height: 20px;
-    background-color: black;
+    background-color: blue;
 }
 
-.orange-box{
+#orange-box{
     margin-top: 20px;
     width :40px;
     height: 20px;
-    background-color: black;
+    background-color: orange;
 }

@@ -366,17 +366,41 @@
 // }
 
 
-function attachEventListeners(){
-    let count = 0;
-    document.getElementById('clickMe').addEventListener(
-        'click',
-        function xyz()
-        {console.log("button clicked", ++count);}
-    )
+// function attachEventListeners(){
+//     let count = 0;
+//     document.getElementById('clickMe').addEventListener(
+//         'click',
+//         function xyz()
+//         {console.log("button clicked", ++count);}
+//     )
+// }
+// attachEventListeners();
+
+const p = new Promise((resolve, reject) => {
+    setTimeout(()=>{
+        reject("value")
+    },10000);
+});
+
+const p2 = new Promise((resolve, reject) => {
+    setTimeout(()=>{
+        resolve("value")
+    },1000);
+});
+
+async function handlePromise(){
+    console.log("hello1");
+    let val = await p;
+    console.log("hello2");
+    console.log("hello3");
+    console.log(val);
+
+    let val2 = await p2;
+    console.log("hello4");
+    console.log(val2);
+
 }
-attachEventListeners();
-
-
+handlePromise();
 
 
 
