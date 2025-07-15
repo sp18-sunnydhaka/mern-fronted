@@ -1,0 +1,23 @@
+{
+  "name": "react-practice",
+  "version": "1.0.0",
+  "description": "This is react-practice",
+  "main": "App.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sp18-sunnydhaka/mern-fronted.git#main"
+  },
+  "keywords": [
+    "nameste",
+    "react"
+  ],
+  "author": "Sunny Dhaka",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sp18-sunnydhaka/mern-fronted/issues"
+  },
+  "homepage": "https://github.com/sp18-sunnydhaka/mern-fronted/tree/main#readme"
+}
