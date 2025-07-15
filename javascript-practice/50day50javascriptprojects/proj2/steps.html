@@ -5,24 +5,20 @@
 <link rel="stylesheet" href="steps.css">
 </head>
 <body>
-    <div id="main-container">
-        <div id="container">
-            <span class="circle active">1</span>
-            <span class="rectangle"></span>
-            
-            <span class="circle">2</span>
-            <span class="rectangle"></span>
+   <div class="container">
+        <div class="progress-container">
+            <div class="progress" id="progress">
 
-            <span class="circle">3</span>
-            <span class="rectangle"></span>
+            </div>
+            <div class="circle active">1</div>
+            <div class="circle">2</div>
+            <div class="circle">3</div>
+            <div class="circle">4</div>
+        </div>
 
-            <span class="circle">4</span>
-        </div>
-        <div id="btns">
-            <button id="prev" disabled>Prev</button>
-            <button id="next">Next</button>
-        </div>
-    </div>
+        <button class="btn" id="prev"  disabled>prev</button>
+        <button class="btn" id="next">Next</button>
+   </div>  
 <script src="steps.js"></script>
 </body>
 </html> 
