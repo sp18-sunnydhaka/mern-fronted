@@ -1,0 +1,92 @@
+@media (max-width: 767px) {
+  /* Phone-specific styles */
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  /* Tablet-specific styles (optional) */
+}
+
+@media (min-width: 992px) {
+
+    /* font-size: calc( 56 / 16 * 1rem ); */
+    /*  width: calc( 448 / 1440 * 100vw );*/
+    #company-text{
+        font-family: 'HK Grotesk', 'Open Sans', sans-serif;
+        color: #183B56;
+        font-weight:700;
+        font-size: 48px;
+        line-height: 60px;
+        letter-spacing: 0.2px;
+        margin-bottom: 30px;
+    }
+
+    #company-text-info{
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 32px;
+        color: #5A7184;
+    }
+
+    .companies-headings{
+        width: 35.13%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 100px auto;
+    }
+
+    .companies{
+        min-height:600px;
+        background-image:url(./assets/Image4.png);
+        background-repeat: no-repeat;
+        background-size: 460px 580px;
+        background-position: left top;
+        margin-bottom: 100px;
+    }
+    .companies-cards{
+        margin-left: 20rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 50px;
+        gap: 100px;
+        overflow-x: auto ;
+    }
+
+    .companies-card{
+        margin-top: 140px;
+        background-color: white;
+        padding: 1rem;
+        border-radius:8px;
+        min-width:17rem;
+        max-width: 19rem;
+        min-height:22.38rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        box-sizing: border-box;
+    }
+
+    .companies-card:hover{
+        cursor: pointer;
+    }
+    .company-card-icon{
+        width:100%;
+        background-color: white;
+    }
+    .company-logo{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .company-info{
+        width:calc(181/16 * 1rem);
+        color: #5A7184;
+    }
+    .horizontal-line{
+        margin-bottom:30px;
+        width: 50%;
+    }
+}
